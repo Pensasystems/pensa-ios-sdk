@@ -1,0 +1,37 @@
+{
+  "UserAgent": "aws-amplify-cli/2.0",
+  "Version": "1.0",
+  "storage": {
+    "plugins": {
+      "awsS3StoragePlugin": {
+        "bucket": "prod-pensa",
+        "region": "us-east-1"
+      }
+    }
+  },
+  
+  "auth": {
+    "plugins": {
+      "awsCognitoAuthPlugin": {
+        "CredentialsProvider": {
+          "CognitoIdentity": {
+            "Default": {
+                "PoolId": "us-east-1:dea9aafb-6e6d-4f3a-a0b7-2ea62277a7b8",
+                "AppClientId": "7q43m4jdviblj1p3cv8j1r3eob",
+                "AppClientSecret": "1mcp5bnucf3kt9k11n1m6c12gtp1vv2o548hh87gk6q9vanlgn0h",
+                "Region": "us-east-1"
+            }
+          }
+        },
+        "CognitoUserPool": {
+          "Default": {
+              "PoolId": "us-east-1_2D0PpCgPR",
+              "AppClientId": "7q43m4jdviblj1p3cv8j1r3eob",
+              "AppClientSecret": "1mcp5bnucf3kt9k11n1m6c12gtp1vv2o548hh87gk6q9vanlgn0h",
+              "Region": "us-east-1"
+          }
+        }
+      }
+    }
+  }
+}
