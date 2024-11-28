@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		l2qD7wKPfLj9ozquzSRX89NwwS4=
+		xgcOcoM7broQLEaK6lKD5uQhhoM=
 		</data>
 		<key>CantScan.storyboardc/CantScanVC.nib</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		LDRjS2KKzbAEzT4cWk+j4yGjXCs=
+		jk1UevKWk/iFM6JBt6IdxH4apTs=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		EDfi/f6H8ADDj73gJO8Dbm2576Y=
+		2+7Nw2DxPoXBvXPnTPnjxP7sp0o=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		EDfi/f6H8ADDj73gJO8Dbm2576Y=
+		2+7Nw2DxPoXBvXPnTPnjxP7sp0o=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		iE6ki3yi/7Ft+0eV0nRRO38WIB4=
+		6B3qiSsQk9Ix4nwa02KkiUFPbvM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yz9SZjSLJ6SFYJw+T6d/hG5R4M4ak8VkLf/VjueBUi8=
+			cU8mCitOcV8CVuxy62U5LNR/MTd+vlpAwjwrQBBc4Kw=
 			</data>
 		</dict>
 		<key>CantScan.storyboardc/CantScanVC.nib</key>
@@ -198,14 +198,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ua7rWOdaGI+33/Rd13megqMPnOByCqc/KEt7CNi1p50=
+			yIP2hn6yhuF/qRIPSO6E3N0GP39+wwhSnq0dkmJ+zjY=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3MSauUb2pHefoH59Dxy4BVqw75G8Ij68L55CmPEMlAM=
+			1+8J53LzhQFESi9/yU5oJnrz5aKdrY8dGetDfoTHDX8=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -219,14 +219,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3MSauUb2pHefoH59Dxy4BVqw75G8Ij68L55CmPEMlAM=
+			1+8J53LzhQFESi9/yU5oJnrz5aKdrY8dGetDfoTHDX8=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U/oI43VC51ie2g7TD1anNUoEIDoeWqzMiCW5pvKwgQ0=
+			HShFkA1vlhLQflyIjGcZrX2QKoKyfvKNEK+wtK2VPaM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

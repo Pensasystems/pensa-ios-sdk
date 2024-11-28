@@ -282,6 +282,177 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "PensaError",
+        "printedName": "PensaError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PensaSdk0A5ErrorV16errorDescriptionSSvp",
+            "mangledName": "$s8PensaSdk0A5ErrorV16errorDescriptionSSvp",
+            "moduleName": "PensaSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PensaSdk0A5ErrorV16errorDescriptionSSvg",
+                "mangledName": "$s8PensaSdk0A5ErrorV16errorDescriptionSSvg",
+                "moduleName": "PensaSdk",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "failureReason",
+            "printedName": "failureReason",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PensaSdk0A5ErrorV13failureReasonSSvp",
+            "mangledName": "$s8PensaSdk0A5ErrorV13failureReasonSSvp",
+            "moduleName": "PensaSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PensaSdk0A5ErrorV13failureReasonSSvg",
+                "mangledName": "$s8PensaSdk0A5ErrorV13failureReasonSSvg",
+                "moduleName": "PensaSdk",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "localizedDescription",
+            "printedName": "localizedDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PensaSdk0A5ErrorV20localizedDescriptionSSvp",
+            "mangledName": "$s8PensaSdk0A5ErrorV20localizedDescriptionSSvp",
+            "moduleName": "PensaSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PensaSdk0A5ErrorV20localizedDescriptionSSvg",
+                "mangledName": "$s8PensaSdk0A5ErrorV20localizedDescriptionSSvg",
+                "moduleName": "PensaSdk",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:8PensaSdk0A5ErrorV",
+        "mangledName": "$s8PensaSdk0A5ErrorV",
+        "moduleName": "PensaSdk",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -554,8 +725,8 @@
           },
           {
             "kind": "Function",
-            "name": "isStarted",
-            "printedName": "isStarted()",
+            "name": "isPensaStarted",
+            "printedName": "isPensaStarted()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -565,8 +736,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8PensaSdk0A0C9isStartedSbyF",
-            "mangledName": "$s8PensaSdk0A0C9isStartedSbyF",
+            "usr": "s:8PensaSdk0A0C02isA7StartedSbyF",
+            "mangledName": "$s8PensaSdk0A0C02isA7StartedSbyF",
             "moduleName": "PensaSdk",
             "declAttributes": [
               "AccessControl"
@@ -575,8 +746,8 @@
           },
           {
             "kind": "Function",
-            "name": "showSearchStoreScreen",
-            "printedName": "showSearchStoreScreen()",
+            "name": "displaySearchStore",
+            "printedName": "displaySearchStore()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -585,8 +756,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8PensaSdk0A0C21showSearchStoreScreenyyF",
-            "mangledName": "$s8PensaSdk0A0C21showSearchStoreScreenyyF",
+            "usr": "s:8PensaSdk0A0C18displaySearchStoreyyF",
+            "mangledName": "$s8PensaSdk0A0C18displaySearchStoreyyF",
             "moduleName": "PensaSdk",
             "declAttributes": [
               "AccessControl"
@@ -595,34 +766,8 @@
           },
           {
             "kind": "Function",
-            "name": "showStoreChecklistScreen",
-            "printedName": "showStoreChecklistScreen(storeId:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8PensaSdk0A0C24showStoreChecklistScreen7storeIdySi_tF",
-            "mangledName": "$s8PensaSdk0A0C24showStoreChecklistScreen7storeIdySi_tF",
-            "moduleName": "PensaSdk",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "showStoreChecklistScreenWithTdlinxCode",
-            "printedName": "showStoreChecklistScreenWithTdlinxCode(categoryId:guid:tdlinxCode:)",
+            "name": "displayStoreById",
+            "printedName": "displayStoreById(sectionKey:guid:globalStoreId:onError:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -662,109 +807,11 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8PensaSdk0A0C38showStoreChecklistScreenWithTdlinxCode10categoryId4guid06tdlinxI0ySSSg_AHSStF",
-            "mangledName": "$s8PensaSdk0A0C38showStoreChecklistScreenWithTdlinxCode10categoryId4guid06tdlinxI0ySSSg_AHSStF",
-            "moduleName": "PensaSdk",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "launchScanAreaScreen",
-            "printedName": "launchScanAreaScreen(storeId:scanAreaId:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8PensaSdk0A0C20launchScanAreaScreen7storeId04scaneH0ySi_SitF",
-            "mangledName": "$s8PensaSdk0A0C20launchScanAreaScreen7storeId04scaneH0ySi_SitF",
-            "moduleName": "PensaSdk",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "showUploadScreen",
-            "printedName": "showUploadScreen()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8PensaSdk0A0C16showUploadScreenyyF",
-            "mangledName": "$s8PensaSdk0A0C16showUploadScreenyyF",
-            "moduleName": "PensaSdk",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "showRecentVisitsScreen",
-            "printedName": "showRecentVisitsScreen()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8PensaSdk0A0C22showRecentVisitsScreenyyF",
-            "mangledName": "$s8PensaSdk0A0C22showRecentVisitsScreenyyF",
-            "moduleName": "PensaSdk",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getStoreData",
-            "printedName": "getStoreData(storeId:onSuccess:onError:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               },
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(PensaSdk.StoreEntity) -> ()",
+                "printedName": "(PensaSdk.PensaError) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -773,84 +820,57 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "StoreEntity",
-                    "printedName": "PensaSdk.StoreEntity",
-                    "usr": "c:@M@PensaSdk@objc(cs)StoreEntity"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "((any Swift.Error)?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(any Swift.Error)?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Error",
-                        "printedName": "any Swift.Error",
-                        "usr": "s:s5ErrorP"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8PensaSdk0A0C12getStoreData7storeId9onSuccess0H5ErrorySS_yAA0D6EntityCcys0J0_pSgctF",
-            "mangledName": "$s8PensaSdk0A0C12getStoreData7storeId9onSuccess0H5ErrorySS_yAA0D6EntityCcys0J0_pSgctF",
-            "moduleName": "PensaSdk",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getScanStatus",
-            "printedName": "getScanStatus(storeId:scanAreaId:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "PensaSdk.ScanStatus?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ScanStatus",
-                    "printedName": "PensaSdk.ScanStatus",
-                    "usr": "s:8PensaSdk10ScanStatusO"
+                    "name": "PensaError",
+                    "printedName": "PensaSdk.PensaError",
+                    "usr": "s:8PensaSdk0A5ErrorV"
                   }
                 ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "hasDefaultArg": true
               }
             ],
             "declKind": "Func",
-            "usr": "s:8PensaSdk0A0C13getScanStatus7storeId08scanAreaG0AA0dE0OSgSS_SStF",
-            "mangledName": "$s8PensaSdk0A0C13getScanStatus7storeId08scanAreaG0AA0dE0OSgSS_SStF",
+            "usr": "s:8PensaSdk0A0C16displayStoreById10sectionKey4guid06globaldF07onErrorySSSg_AISSyAA0aL0VctF",
+            "mangledName": "$s8PensaSdk0A0C16displayStoreById10sectionKey4guid06globaldF07onErrorySSSg_AISSyAA0aL0VctF",
+            "moduleName": "PensaSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "monitorUploads",
+            "printedName": "monitorUploads()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PensaSdk0A0C14monitorUploadsyyF",
+            "mangledName": "$s8PensaSdk0A0C14monitorUploadsyyF",
+            "moduleName": "PensaSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "displayRecentlyVisitedStores",
+            "printedName": "displayRecentlyVisitedStores()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PensaSdk0A0C28displayRecentlyVisitedStoresyyF",
+            "mangledName": "$s8PensaSdk0A0C28displayRecentlyVisitedStoresyyF",
             "moduleName": "PensaSdk",
             "declAttributes": [
               "AccessControl"
@@ -882,6 +902,23 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PensaSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "PensaSdk"
       },
       {
         "kind": "Import",
@@ -8149,7 +8186,7 @@
     {
       "filePath": "\/Users\/bsoykal\/Projeler\/Pensa Projects\/pensa-ios-sdk-private\/PensaSdkDemo\/PensaSdk\/PensaSdk\/Model\/Platform\/StoreService.swift",
       "kind": "IntegerLiteral",
-      "offset": 5976,
+      "offset": 6012,
       "length": 3,
       "value": "500"
     },
@@ -8380,35 +8417,42 @@
     {
       "filePath": "\/Users\/bsoykal\/Projeler\/Pensa Projects\/pensa-ios-sdk-private\/PensaSdkDemo\/PensaSdk\/PensaSdk\/Model\/Platform\/PensaError.swift",
       "kind": "StringLiteral",
-      "offset": 442,
+      "offset": 470,
       "length": 29,
       "value": "\"Unauthorized user detected.\""
     },
     {
       "filePath": "\/Users\/bsoykal\/Projeler\/Pensa Projects\/pensa-ios-sdk-private\/PensaSdkDemo\/PensaSdk\/PensaSdk\/Model\/Platform\/PensaError.swift",
       "kind": "StringLiteral",
-      "offset": 509,
-      "length": 53,
-      "value": "\"User does not have necessary Pensa App permissions.\""
-    },
-    {
-      "filePath": "\/Users\/bsoykal\/Projeler\/Pensa Projects\/pensa-ios-sdk-private\/PensaSdkDemo\/PensaSdk\/PensaSdk\/Model\/Platform\/PensaError.swift",
-      "kind": "StringLiteral",
-      "offset": 600,
+      "offset": 537,
       "length": 36,
       "value": "\"Internal server error has occured.\""
     },
     {
       "filePath": "\/Users\/bsoykal\/Projeler\/Pensa Projects\/pensa-ios-sdk-private\/PensaSdkDemo\/PensaSdk\/PensaSdk\/Model\/Platform\/PensaError.swift",
       "kind": "StringLiteral",
-      "offset": 665,
+      "offset": 602,
       "length": 38,
       "value": "\"No active internet connection found.\""
     },
     {
       "filePath": "\/Users\/bsoykal\/Projeler\/Pensa Projects\/pensa-ios-sdk-private\/PensaSdkDemo\/PensaSdk\/PensaSdk\/Model\/Platform\/PensaError.swift",
       "kind": "StringLiteral",
+      "offset": 673,
+      "length": 27,
+      "value": "\"Pensa is not initialized.\""
+    },
+    {
+      "filePath": "\/Users\/bsoykal\/Projeler\/Pensa Projects\/pensa-ios-sdk-private\/PensaSdkDemo\/PensaSdk\/PensaSdk\/Model\/Platform\/PensaError.swift",
+      "kind": "StringLiteral",
       "offset": 738,
+      "length": 53,
+      "value": "\"User does not have necessary Pensa App permissions.\""
+    },
+    {
+      "filePath": "\/Users\/bsoykal\/Projeler\/Pensa Projects\/pensa-ios-sdk-private\/PensaSdkDemo\/PensaSdk\/PensaSdk\/Model\/Platform\/PensaError.swift",
+      "kind": "StringLiteral",
+      "offset": 826,
       "length": 27,
       "value": "\"refreshIdToken timed out.\""
     },
@@ -8695,21 +8739,21 @@
     {
       "filePath": "\/Users\/bsoykal\/Projeler\/Pensa Projects\/pensa-ios-sdk-private\/PensaSdkDemo\/PensaSdk\/PensaSdk\/Pensa.swift",
       "kind": "StringLiteral",
-      "offset": 17357,
+      "offset": 10870,
       "length": 6,
       "value": "\"momd\""
     },
     {
       "filePath": "\/Users\/bsoykal\/Projeler\/Pensa Projects\/pensa-ios-sdk-private\/PensaSdkDemo\/PensaSdk\/PensaSdk\/Pensa.swift",
       "kind": "StringLiteral",
-      "offset": 17668,
+      "offset": 11181,
       "length": 44,
       "value": "\"Unable to load persistent stores: \""
     },
     {
       "filePath": "\/Users\/bsoykal\/Projeler\/Pensa Projects\/pensa-ios-sdk-private\/PensaSdkDemo\/PensaSdk\/PensaSdk\/Pensa.swift",
       "kind": "StringLiteral",
-      "offset": 17711,
+      "offset": 11224,
       "length": 2,
       "value": "\"\""
     },
@@ -11740,7 +11784,7 @@
     {
       "filePath": "\/Users\/bsoykal\/Projeler\/Pensa Projects\/pensa-ios-sdk-private\/PensaSdkDemo\/PensaSdk\/PensaSdk\/View\/StoreChecklist\/SearchStoresView.swift",
       "kind": "Array",
-      "offset": 9847,
+      "offset": 9853,
       "length": 2,
       "value": "[]"
     },

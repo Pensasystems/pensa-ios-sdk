@@ -24,20 +24,27 @@ import _AVKit_SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public struct PensaError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String {
+    get
+  }
+  public var failureReason: Swift.String {
+    get
+  }
+  public var localizedDescription: Swift.String {
+    get
+  }
+}
 @_hasMissingDesignatedInitializers public class Pensa {
   public static let shared: PensaSdk.Pensa
   public func initPensa(clientId: Swift.String, clientSecret: Swift.String, _ completionHandler: @escaping ((any Swift.Error)?) -> Swift.Void)
   public func enableLogging()
   public func disableLogging()
-  public func isStarted() -> Swift.Bool
-  public func showSearchStoreScreen()
-  public func showStoreChecklistScreen(storeId: Swift.Int)
-  public func showStoreChecklistScreenWithTdlinxCode(categoryId: Swift.String?, guid: Swift.String?, tdlinxCode: Swift.String)
-  public func launchScanAreaScreen(storeId: Swift.Int, scanAreaId: Swift.Int)
-  public func showUploadScreen()
-  public func showRecentVisitsScreen()
-  public func getStoreData(storeId: Swift.String, onSuccess: @escaping (PensaSdk.StoreEntity) -> Swift.Void, onError: @escaping ((any Swift.Error)?) -> Swift.Void)
-  public func getScanStatus(storeId: Swift.String, scanAreaId: Swift.String) -> PensaSdk.ScanStatus?
+  public func isPensaStarted() -> Swift.Bool
+  public func displaySearchStore()
+  public func displayStoreById(sectionKey: Swift.String?, guid: Swift.String?, globalStoreId: Swift.String, onError: @escaping (PensaSdk.PensaError) -> Swift.Void = { _ in })
+  public func monitorUploads()
+  public func displayRecentlyVisitedStores()
   @objc deinit
 }
 
