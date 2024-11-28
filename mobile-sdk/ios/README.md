@@ -1,7 +1,3 @@
----
-icon: apple-whole
----
-
 # iOS
 
 ## About Pensa SDK
