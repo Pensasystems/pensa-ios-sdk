@@ -1,6 +1,6 @@
 # Table of contents
 
-* [SDK Integration]
+* [SDK Integration](#sdk-integration)
 * [SDK Initialization](mobile-sdk/ios/sdk-initialization.md)
 * [SDK Functionality](mobile-sdk/ios/sdk-functionality.md)
 
