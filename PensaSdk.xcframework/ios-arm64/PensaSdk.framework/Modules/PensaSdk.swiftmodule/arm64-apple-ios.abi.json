@@ -786,6 +786,7 @@
                     "usr": "s:SS"
                   }
                 ],
+                "hasDefaultArg": true,
                 "usr": "s:Sq"
               },
               {
@@ -800,6 +801,7 @@
                     "usr": "s:SS"
                   }
                 ],
+                "hasDefaultArg": true,
                 "usr": "s:Sq"
               },
               {
@@ -8739,21 +8741,21 @@
     {
       "filePath": "\/Users\/bsoykal\/Projeler\/Pensa Projects\/pensa-ios-sdk-private\/PensaSdkDemo\/PensaSdk\/PensaSdk\/Pensa.swift",
       "kind": "StringLiteral",
-      "offset": 10870,
+      "offset": 10882,
       "length": 6,
       "value": "\"momd\""
     },
     {
       "filePath": "\/Users\/bsoykal\/Projeler\/Pensa Projects\/pensa-ios-sdk-private\/PensaSdkDemo\/PensaSdk\/PensaSdk\/Pensa.swift",
       "kind": "StringLiteral",
-      "offset": 11181,
+      "offset": 11193,
       "length": 44,
       "value": "\"Unable to load persistent stores: \""
     },
     {
       "filePath": "\/Users\/bsoykal\/Projeler\/Pensa Projects\/pensa-ios-sdk-private\/PensaSdkDemo\/PensaSdk\/PensaSdk\/Pensa.swift",
       "kind": "StringLiteral",
-      "offset": 11224,
+      "offset": 11236,
       "length": 2,
       "value": "\"\""
     },
@@ -12647,21 +12649,21 @@
       "kind": "StringLiteral",
       "offset": 2685,
       "length": 40,
-      "value": "\"com.pensasystems.PensaApp.check.upload\""
+      "value": "\"com.pensasystems.PensaSdk.check.upload\""
     },
     {
       "filePath": "\/Users\/bsoykal\/Projeler\/Pensa Projects\/pensa-ios-sdk-private\/PensaSdkDemo\/PensaSdk\/PensaSdk\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 2860,
       "length": 42,
-      "value": "\"com.pensasystems.PensaApp.product.upload\""
+      "value": "\"com.pensasystems.PensaSdk.product.upload\""
     },
     {
       "filePath": "\/Users\/bsoykal\/Projeler\/Pensa Projects\/pensa-ios-sdk-private\/PensaSdkDemo\/PensaSdk\/PensaSdk\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 3031,
       "length": 39,
-      "value": "\"com.pensasystems.PensaApp.scan.upload\""
+      "value": "\"com.pensasystems.PensaSdk.scan.upload\""
     },
     {
       "filePath": "\/Users\/bsoykal\/Projeler\/Pensa Projects\/pensa-ios-sdk-private\/PensaSdkDemo\/PensaSdk\/PensaSdk\/Constants.swift",

@@ -62,11 +62,11 @@
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ijW5AGAkXs3vxfrt5lROQwqBjhs=
+		COjV6824/Do1eUW9w5z0lFeI2d8=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		2+7Nw2DxPoXBvXPnTPnjxP7sp0o=
+		+1vjyXlsOut8AKWon5NFxoTjaK8=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		2+7Nw2DxPoXBvXPnTPnjxP7sp0o=
+		+1vjyXlsOut8AKWon5NFxoTjaK8=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		b5KAK+2bo+CW913eF0G3jFv8x1c=
+		C0tKMlnOFWYrffXac/WE6xtzw8Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -198,14 +198,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QYEPAnnohZrD0Jsi/L45mPN+Gq0BV3+fto0/OGJLNA8=
+			CDxQu4aMLrsGjEbtoWs3sfZgKMOWXgXPdPX/9OkdypU=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1+8J53LzhQFESi9/yU5oJnrz5aKdrY8dGetDfoTHDX8=
+			pJNM15RRIgAnkR+jC+74xUidRRPaWAmDR9tal/kjKRc=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -219,14 +219,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1+8J53LzhQFESi9/yU5oJnrz5aKdrY8dGetDfoTHDX8=
+			pJNM15RRIgAnkR+jC+74xUidRRPaWAmDR9tal/kjKRc=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gDUFRvR8wJrdRVJLV1I9rO/hzYweUMfi27z0FAcR9vE=
+			ZzY2H7WrsrH5fbnSi2pvZqZWTVBa9iwSj5Kgajb/kGU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

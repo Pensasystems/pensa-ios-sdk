@@ -42,7 +42,7 @@ public struct PensaError : Foundation.LocalizedError {
   public func disableLogging()
   public func isPensaStarted() -> Swift.Bool
   public func displaySearchStore()
-  public func displayStoreById(sectionKey: Swift.String?, guid: Swift.String?, globalStoreId: Swift.String, onError: @escaping (PensaSdk.PensaError) -> Swift.Void = { _ in })
+  public func displayStoreById(sectionKey: Swift.String? = nil, guid: Swift.String? = nil, globalStoreId: Swift.String, onError: @escaping (PensaSdk.PensaError) -> Swift.Void = { _ in })
   public func monitorUploads()
   public func displayRecentlyVisitedStores()
   @objc deinit
