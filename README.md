@@ -18,7 +18,7 @@ To integrate Pensa SDK into your project using SPM, follow the steps below:
   
 3. You'll see the Pensa iOS SDK repository information for which version of Pensa SDK you want Swift Package Manager to install. Choose **Up to Next Major Version** and enter **1.0.0** as the minimum version for the Dependency Rule, then click **Add Package**.
 
-<figure><img src=".gitbook/assets/Screenshot 2024-11-26 at 14.24.36.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot 2024-11-29 at 02.14.00.png" alt=""><figcaption></figcaption></figure>
 
 4. Select your app target and click on **Add Package.**
 
