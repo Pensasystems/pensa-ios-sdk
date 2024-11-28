@@ -1,3 +1,10 @@
+# Table of contents
+
+* [SDK Integration]
+* [SDK Initialization](mobile-sdk/ios/sdk-initialization.md)
+* [SDK Functionality](mobile-sdk/ios/sdk-functionality.md)
+
+
 # SDK Integration
 
 To integrate Pensa SDK into your project using SPM, follow the steps below:
