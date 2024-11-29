@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Ra6Fd7aiEJiHIOO3v/3/oCp6qH8=
+		pm/QDlEEMiK/K9yEkJeuh6i3JEE=
 		</data>
 		<key>CantScan.storyboardc/CantScanVC.nib</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>IBCPortraitCamera.storyboardc/0wH-4d-tys-view-18R-1K-Xau.nib</key>
 		<data>
-		yKo70jZLTyCzSVGHBRP9UDLLq4w=
+		ysNQNvXjZx94rwN+jcdbymADkVs=
 		</data>
 		<key>IBCPortraitCamera.storyboardc/GVL-GV-1kF-view-9dq-M9-sfn.nib</key>
 		<data>
-		mYBvGgfDdzm7JRgHKkC1vQhWY3M=
+		QspHTEYC/37hAxOih19s2vn9bME=
 		</data>
 		<key>IBCPortraitCamera.storyboardc/HowToScan.nib</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		COjV6824/Do1eUW9w5z0lFeI2d8=
+		303N7fZ0eAurAIrxidcvNtyEZaU=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		C0tKMlnOFWYrffXac/WE6xtzw8Q=
+		rxT5pmXIw9YOTNB4pSnKG9n23fY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5fERJtqZcNWlnToVlpPoLLJP5otsND70rO7DIH19RaU=
+			c6GcF+6zkxM14KlJstjVpTofBdmb0rQiR8TfK5C01vs=
 			</data>
 		</dict>
 		<key>CantScan.storyboardc/CantScanVC.nib</key>
@@ -149,14 +149,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VMj8+bKXkCuM1zDtNuxfT9tJZEQSO12EPNbvBwrqUKs=
+			acKPDnwNG5EPCEjp4wA/lJtIsjGQRqHR8CWc0npsiso=
 			</data>
 		</dict>
 		<key>IBCPortraitCamera.storyboardc/GVL-GV-1kF-view-9dq-M9-sfn.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j15HpZaeyKEzAez5mIHtfeJ6qDxm7KQhMhiE+3ehKV4=
+			IbL0KwhdSJkRFJc/NPDAzCj01T3b1hefabH4OUcvDg0=
 			</data>
 		</dict>
 		<key>IBCPortraitCamera.storyboardc/HowToScan.nib</key>
@@ -198,7 +198,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CDxQu4aMLrsGjEbtoWs3sfZgKMOWXgXPdPX/9OkdypU=
+			RPuu/HZVtwJ1KfsRZZdSvUC/XQkZFRwXd1QMV9S4PPs=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -226,7 +226,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZzY2H7WrsrH5fbnSi2pvZqZWTVBa9iwSj5Kgajb/kGU=
+			8KRUt8xYLk4ewF/WfMATzIQs/VR0RETnO2JAWAdg3pA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		l2qD7wKPfLj9ozquzSRX89NwwS4=
+		s2HrNJuSO4xl6IcKMx4bx7ORsbM=
 		</data>
 		<key>CantScan.storyboardc/CantScanVC.nib</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		3FTYiaWG4HdThhSwJ+udVJ7Tz1w=
+		yLRJS7PdrJGZMhueU/7KfY8go30=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -78,11 +78,11 @@
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JkkBQIDRVFYLBbsmniq46wWmgzs=
+		R1raNMLvZM8LGO8chkgpecf8z1w=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		3FTYiaWG4HdThhSwJ+udVJ7Tz1w=
+		yLRJS7PdrJGZMhueU/7KfY8go30=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nkkw7YEriAnevQU734FnJqoc5Yk=
+		ikzQDTnkqqTeBRWcV2+RzfkfTD8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -127,7 +127,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yz9SZjSLJ6SFYJw+T6d/hG5R4M4ak8VkLf/VjueBUi8=
+			R698OxG6+VXnrW4KzW63WkeX3k3TiWjgKEjHyWhcC5Q=
 			</data>
 		</dict>
 		<key>CantScan.storyboardc/CantScanVC.nib</key>
@@ -218,7 +218,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U4yzKmSQQGJPXlQV0OHfMkGNGj1KnMqCpcdjUeleoA4=
+			OlRPIBv3QP3/UGJsAOQiv4IW1jz6alXYpNCWE76ABWY=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -246,14 +246,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OxSkMRf7ijeLTSgHlTd4hf7zoYCXboehApociK4QIHQ=
+			JkGIaSZXir7w/2Y4uKINAbGGb8PhKoQf2a+6NPaO3HM=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U4yzKmSQQGJPXlQV0OHfMkGNGj1KnMqCpcdjUeleoA4=
+			OlRPIBv3QP3/UGJsAOQiv4IW1jz6alXYpNCWE76ABWY=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -281,7 +281,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fvFBjp0wVDBmLpmQT3LDcqvYBk7Ortllzhr3NZCWSj4=
+			eIPruHQLIaIXQMjw8K6/X7iqPurMD0GUTpmI8gHGmfw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
