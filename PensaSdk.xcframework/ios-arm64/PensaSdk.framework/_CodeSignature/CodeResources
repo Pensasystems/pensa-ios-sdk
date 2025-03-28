@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		LwxBChAv/ROl15VeXk43QOYprNg=
+		UCEtVvydN5/dwU4HAJ75PlrxOBQ=
 		</data>
 		<key>CantScan.storyboardc/CantScanVC.nib</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/PensaSdk-Swift.h</key>
 		<data>
-		OGHb1t7AneVuvYkQqxdsBuxvw+M=
+		MIQ++5Fu26B5FNPiDdVBEGuNOY0=
 		</data>
 		<key>Headers/PensaSdk.h</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>IBCPortraitCamera.storyboardc/0wH-4d-tys-view-18R-1K-Xau.nib</key>
 		<data>
-		KQCyQcdc4al51ffabfAqCgvTn60=
+		yKo70jZLTyCzSVGHBRP9UDLLq4w=
 		</data>
 		<key>IBCPortraitCamera.storyboardc/GVL-GV-1kF-view-9dq-M9-sfn.nib</key>
 		<data>
-		SHGvWWEgRLbwrdQrSDZsyY+I7XI=
+		mYBvGgfDdzm7JRgHKkC1vQhWY3M=
 		</data>
 		<key>IBCPortraitCamera.storyboardc/HowToScan.nib</key>
 		<data>
@@ -54,31 +54,31 @@
 		</data>
 		<key>IBCPortraitCamera.storyboardc/OAN-hK-9yV-view-BYl-4q-HZE.nib</key>
 		<data>
-		CoFNMLCRavXxzLoxKEltimDqht0=
+		CUQK5tRp5VhsZOLVmU2N9NRx63w=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		iw8VXKn7VSzLdawfO0nVvRGVGOM=
+		3gsdspBdnGm7YmF7OvymwH8Aay8=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		YmwyvSRmpBmCGa/4CsC4XUAr3Fs=
+		E1WqKNZhzIJLPTYMmBh39bfL0js=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		u6hMWibg+c/BJ0HLP2PEZZQYr7w=
+		uu+oCAZti7bf0Lkf1rRjDyhSV88=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		g7+e5gDnEKUBkpLiCXdMxNSHp2I=
+		GW3FnTL9pzVcmEEGV6J3rccXu6I=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		u6hMWibg+c/BJ0HLP2PEZZQYr7w=
+		uu+oCAZti7bf0Lkf1rRjDyhSV88=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		3kz8Y2iHi4NvaFdcbeJ1SPB0qDU=
+		uKMjbyAReBnTK9deFHQWyTGtdxw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>PensaModel.momd/PensaModel.mom</key>
 		<data>
-		aXo2CATahf2IyY5A/ZMAUlSi174=
+		2HmE+KBCRuJmTGRC3cE2a1Z2dxo=
 		</data>
 		<key>PensaModel.momd/VersionInfo.plist</key>
 		<data>
@@ -107,7 +107,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fETtJnt4uddt6NsxtpqjDFZznWypQEoxPAleL6g6brs=
+			enSZZdVNg3Cb5KqkR+3E/o//+QqiA0NYWUNrjNR42g4=
 			</data>
 		</dict>
 		<key>CantScan.storyboardc/CantScanVC.nib</key>
@@ -135,7 +135,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ycb5Z7pbS2G0eQg9zUUxnIUtCJdHWfvlChg8NU+Nw40=
+			nS9an8SX46WYBLFcRA7jTRQyz5BMncAYHGiOq3SPy7U=
 			</data>
 		</dict>
 		<key>Headers/PensaSdk.h</key>
@@ -149,14 +149,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n/bCWb/8qc5IGD6CBZIlVKPCRpYeGjtQ5Lg9h9PABQo=
+			VMj8+bKXkCuM1zDtNuxfT9tJZEQSO12EPNbvBwrqUKs=
 			</data>
 		</dict>
 		<key>IBCPortraitCamera.storyboardc/GVL-GV-1kF-view-9dq-M9-sfn.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u/Yt4ZyfWovOLrYmcbbjRUVOB+80eHAefjiZUT4WUOk=
+			j15HpZaeyKEzAez5mIHtfeJ6qDxm7KQhMhiE+3ehKV4=
 			</data>
 		</dict>
 		<key>IBCPortraitCamera.storyboardc/HowToScan.nib</key>
@@ -191,42 +191,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HqZoFrV8ZKvmS05230sGHAwCJh+BdDgk+YyylZw7QdE=
+			oOGZ+/Boy3oRUVTpit6qjxg4SQdc74gMW+Zq8wC2Rl4=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EpmEyBx0lZ4Xnc4l5lITT2mhRYmDLc6eNpER/9E760Y=
+			ikGw9dJkuvITTloy9g6VLe3FZhttJiaTjAddYVL09io=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GnJKHN8QwHEU+4rgcoQJbWppq394RIiqCn0kH2anJeI=
+			hLj1+IynFXdKhd0zyxH/sFXsVxi8Q6NBan7TOISp96s=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7rESNZ/WYHBmp8Y1xvX3jrfnEcYnEZsTTNtjQ9OtaNU=
+			/8k2DVn1Rrt8ChGvMjOPTEwquRTKE0IYzbZ3ZonKxGU=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GnJKHN8QwHEU+4rgcoQJbWppq394RIiqCn0kH2anJeI=
+			hLj1+IynFXdKhd0zyxH/sFXsVxi8Q6NBan7TOISp96s=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h1EYQbHJPs05NjO05IydNHGtuwQo0S/mPVQVTRrkppk=
+			sjGGeqRcuHQUyDpT56Zr+MthDfmhJTi3r95mIJMgQhE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -247,7 +247,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tSSnTqLtw+IqNTpXa+aiKj8OK3aK9zKguHeU3bV/pFo=
+			Bl26BluCMVB6TogTpPAtmvMQmKA3wh8ROGuUs5TmAh4=
 			</data>
 		</dict>
 		<key>PensaModel.momd/VersionInfo.plist</key>
