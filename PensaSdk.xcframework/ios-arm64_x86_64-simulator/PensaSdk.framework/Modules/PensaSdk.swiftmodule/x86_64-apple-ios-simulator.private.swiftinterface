@@ -1,0 +1,61 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PensaSdk
+// swift-module-flags-ignorable:  -interface-compiler-version 6.1.2
+import Foundation
+import Swift
+import SwiftUI
+import SwiftUICore
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public protocol ScanUploadListener {
+  func onScanUploadProgressUpdate(tdlinxId: Swift.String, scanAreaId: Swift.String, progress: Swift.Double)
+  func onScanUploadCompleted(tdlinxId: Swift.String, scanAreaId: Swift.String)
+  func onScanUploadFailed(tdlinxId: Swift.String, scanAreaId: Swift.String, error: any Swift.Error)
+}
+@_hasMissingDesignatedInitializers public class Pensa {
+  public static let shared: PensaSdk.Pensa
+  public func initPensa(config: PensaSdk.PensaConfiguration, _ completionHandler: @escaping ((any Swift.Error)?) -> Swift.Void)
+  public func isPensaStarted() -> Swift.Bool
+  public func showStoresScreen()
+  public func showStockingScreen()
+  public func showShelfScans()
+  public func showProductScans()
+  public func showScanArea(with scanAreaId: Swift.Int)
+  public func showStoreSearchView()
+  public func showStoreChecklist(sectionKey: Swift.String?, guid: Swift.String?, globalStoreId: Swift.String, onError: @escaping (PensaSdk.PensaError) -> Swift.Void = { _ in })
+  @objc deinit
+}
+public struct PensaConfiguration {
+  public let clientId: Swift.String
+  public let clientSecret: Swift.String
+  public let loggingEnabled: Swift.Bool
+  public let scanUploadListener: (any PensaSdk.ScanUploadListener)?
+  public let cantScanEventListener: (any PensaSdk.CantScanEventListener)?
+  public class Builder {
+    public init()
+    public func setClientId(_ clientId: Swift.String) -> PensaSdk.PensaConfiguration.Builder
+    public func setClientSecret(_ clientSecret: Swift.String) -> PensaSdk.PensaConfiguration.Builder
+    public func setLoggingEnabled(_ enabled: Swift.Bool) -> PensaSdk.PensaConfiguration.Builder
+    public func setScanUploadListener(_ listener: any PensaSdk.ScanUploadListener) -> PensaSdk.PensaConfiguration.Builder
+    public func setCantScanEventListener(_ listener: any PensaSdk.CantScanEventListener) -> PensaSdk.PensaConfiguration.Builder
+    public func build() -> PensaSdk.PensaConfiguration
+    @objc deinit
+  }
+}
+public struct PensaError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String {
+    get
+  }
+  public var failureReason: Swift.String {
+    get
+  }
+  public var localizedDescription: Swift.String {
+    get
+  }
+}
+public protocol CantScanEventListener {
+  func onCantScanReported(tdlinxId: Swift.String, scanAreaId: Swift.String, cantScanReason: Swift.String)
+}
