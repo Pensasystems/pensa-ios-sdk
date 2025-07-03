@@ -5,148 +5,6 @@
     "printedName": "PensaSdk",
     "children": [
       {
-        "kind": "TypeDecl",
-        "name": "ScanUploadListener",
-        "printedName": "ScanUploadListener",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "onScanUploadProgressUpdate",
-            "printedName": "onScanUploadProgressUpdate(tdlinxId:scanAreaId:progress:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Double",
-                "printedName": "Swift.Double",
-                "usr": "s:Sd"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8PensaSdk18ScanUploadListenerP02oncD14ProgressUpdate8tdlinxId08scanAreaJ08progressySS_SSSdtF",
-            "mangledName": "$s8PensaSdk18ScanUploadListenerP02oncD14ProgressUpdate8tdlinxId08scanAreaJ08progressySS_SSSdtF",
-            "moduleName": "PensaSdk",
-            "genericSig": "<τ_0_0 where τ_0_0 : PensaSdk.ScanUploadListener>",
-            "sugared_genericSig": "<Self where Self : PensaSdk.ScanUploadListener>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onScanUploadCompleted",
-            "printedName": "onScanUploadCompleted(tdlinxId:scanAreaId:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8PensaSdk18ScanUploadListenerP02oncD9Completed8tdlinxId08scanAreaI0ySS_SStF",
-            "mangledName": "$s8PensaSdk18ScanUploadListenerP02oncD9Completed8tdlinxId08scanAreaI0ySS_SStF",
-            "moduleName": "PensaSdk",
-            "genericSig": "<τ_0_0 where τ_0_0 : PensaSdk.ScanUploadListener>",
-            "sugared_genericSig": "<Self where Self : PensaSdk.ScanUploadListener>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onScanUploadFailed",
-            "printedName": "onScanUploadFailed(tdlinxId:scanAreaId:error:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Error",
-                "printedName": "any Swift.Error",
-                "usr": "s:s5ErrorP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:8PensaSdk18ScanUploadListenerP02oncD6Failed8tdlinxId08scanAreaI05errorySS_SSs5Error_ptF",
-            "mangledName": "$s8PensaSdk18ScanUploadListenerP02oncD6Failed8tdlinxId08scanAreaI05errorySS_SSs5Error_ptF",
-            "moduleName": "PensaSdk",
-            "genericSig": "<τ_0_0 where τ_0_0 : PensaSdk.ScanUploadListener>",
-            "sugared_genericSig": "<Self where Self : PensaSdk.ScanUploadListener>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:8PensaSdk18ScanUploadListenerP",
-        "mangledName": "$s8PensaSdk18ScanUploadListenerP",
-        "moduleName": "PensaSdk",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -4451,6 +4309,148 @@
             "printedName": "CoreCantScanListener",
             "usr": "s:9PensaCore0B16CantScanListenerP",
             "mangledName": "$s9PensaCore0B16CantScanListenerP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ScanUploadListener",
+        "printedName": "ScanUploadListener",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onScanUploadProgressUpdate",
+            "printedName": "onScanUploadProgressUpdate(tdlinxId:scanAreaId:progress:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PensaSdk18ScanUploadListenerP02oncD14ProgressUpdate8tdlinxId08scanAreaJ08progressySS_SSSdtF",
+            "mangledName": "$s8PensaSdk18ScanUploadListenerP02oncD14ProgressUpdate8tdlinxId08scanAreaJ08progressySS_SSSdtF",
+            "moduleName": "PensaSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : PensaSdk.ScanUploadListener>",
+            "sugared_genericSig": "<Self where Self : PensaSdk.ScanUploadListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onScanUploadCompleted",
+            "printedName": "onScanUploadCompleted(tdlinxId:scanAreaId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PensaSdk18ScanUploadListenerP02oncD9Completed8tdlinxId08scanAreaI0ySS_SStF",
+            "mangledName": "$s8PensaSdk18ScanUploadListenerP02oncD9Completed8tdlinxId08scanAreaI0ySS_SStF",
+            "moduleName": "PensaSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : PensaSdk.ScanUploadListener>",
+            "sugared_genericSig": "<Self where Self : PensaSdk.ScanUploadListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onScanUploadFailed",
+            "printedName": "onScanUploadFailed(tdlinxId:scanAreaId:error:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PensaSdk18ScanUploadListenerP02oncD6Failed8tdlinxId08scanAreaI05errorySS_SSs5Error_ptF",
+            "mangledName": "$s8PensaSdk18ScanUploadListenerP02oncD6Failed8tdlinxId08scanAreaI05errorySS_SSs5Error_ptF",
+            "moduleName": "PensaSdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : PensaSdk.ScanUploadListener>",
+            "sugared_genericSig": "<Self where Self : PensaSdk.ScanUploadListener>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:8PensaSdk18ScanUploadListenerP",
+        "mangledName": "$s8PensaSdk18ScanUploadListenerP",
+        "moduleName": "PensaSdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           }
         ]
       }
