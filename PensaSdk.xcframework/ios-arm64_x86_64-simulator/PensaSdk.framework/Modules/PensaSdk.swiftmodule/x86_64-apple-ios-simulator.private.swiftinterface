@@ -10,11 +10,6 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public protocol ScanUploadListener {
-  func onScanUploadProgressUpdate(tdlinxId: Swift.String, scanAreaId: Swift.String, progress: Swift.Double)
-  func onScanUploadCompleted(tdlinxId: Swift.String, scanAreaId: Swift.String)
-  func onScanUploadFailed(tdlinxId: Swift.String, scanAreaId: Swift.String, error: any Swift.Error)
-}
 @_hasMissingDesignatedInitializers public class Pensa {
   public static let shared: PensaSdk.Pensa
   public func initPensa(config: PensaSdk.PensaConfiguration, _ completionHandler: @escaping ((any Swift.Error)?) -> Swift.Void)
@@ -58,4 +53,9 @@ public struct PensaError : Foundation.LocalizedError {
 }
 public protocol CantScanEventListener {
   func onCantScanReported(tdlinxId: Swift.String, scanAreaId: Swift.String, cantScanReason: Swift.String)
+}
+public protocol ScanUploadListener {
+  func onScanUploadProgressUpdate(tdlinxId: Swift.String, scanAreaId: Swift.String, progress: Swift.Double)
+  func onScanUploadCompleted(tdlinxId: Swift.String, scanAreaId: Swift.String)
+  func onScanUploadFailed(tdlinxId: Swift.String, scanAreaId: Swift.String, error: any Swift.Error)
 }
