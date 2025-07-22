@@ -4,391 +4,264 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/PensaCore.framework/Assets.car</key>
+		<key>Assets.car</key>
 		<data>
-		q+vKmxs30dtfE070OtXtb8io0jI=
+		UCEtVvydN5/dwU4HAJ75PlrxOBQ=
 		</data>
-		<key>Frameworks/PensaCore.framework/Base.lproj/CantScan.storyboardc/CantScanController.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			O3RGx0R7+T4adv4QHosWPKpa6do=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PensaCore.framework/Base.lproj/CantScan.storyboardc/CantScanVC.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HjNQbnfuzPQtc5MRmIZeFlOQo3w=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PensaCore.framework/Base.lproj/CantScan.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			EsYhJCgHAB7RGn3gJHyIbbOIS3g=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PensaCore.framework/Base.lproj/CantScan.storyboardc/ce6-nM-OiE-view-8wo-mp-eFV.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PfWhHj3FUy/NdIlMIVp+y9I/19c=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PensaCore.framework/Base.lproj/IBCPortraitCamera.storyboardc/0wH-4d-tys-view-18R-1K-Xau.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0hlTRCZZpqStnpdrsqWcNbvUoCI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PensaCore.framework/Base.lproj/IBCPortraitCamera.storyboardc/GVL-GV-1kF-view-9dq-M9-sfn.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			83mW21+L4JyxtWC2b0cxP1eg/p8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PensaCore.framework/Base.lproj/IBCPortraitCamera.storyboardc/HowToScan.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			6nGwnC+qZhYo/xaoH+FAOYyUWGg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PensaCore.framework/Base.lproj/IBCPortraitCamera.storyboardc/IBCPortraitCamera.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/J/rP0iS0KJ2DE5EpN4BNpQDnWY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PensaCore.framework/Base.lproj/IBCPortraitCamera.storyboardc/IBCPortraitPlayback.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0yfcORDFLnvZ+FgDWPlMBlO09F4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PensaCore.framework/Base.lproj/IBCPortraitCamera.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			UME7YBYhy5SVJub2TOURaSGBKpg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PensaCore.framework/Base.lproj/IBCPortraitCamera.storyboardc/OAN-hK-9yV-view-BYl-4q-HZE.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			1rfC1q7/GbsqpMDqMKStpBk5jl8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PensaCore.framework/Info.plist</key>
+		<key>CantScan.storyboardc/CantScanVC.nib</key>
 		<data>
-		UF4IMWlj/CEMVjzBSkmYk2qL7oE=
+		krXFsAlxF5Op/tIgF6OpIwG/Ev4=
 		</data>
-		<key>Frameworks/PensaCore.framework/PensaCore</key>
+		<key>CantScan.storyboardc/Info.plist</key>
 		<data>
-		B9jozY6ZVkuqDWVkgFiu4WtSRfI=
+		QrQrNgSK/tZ5wLn+e91SRK0F+fE=
 		</data>
-		<key>Frameworks/PensaCore.framework/PensaLoadingDialog.nib</key>
+		<key>CantScan.storyboardc/UyF-E7-QpB-view-CPi-Xt-mgI.nib</key>
 		<data>
-		iahIEbz/nqq0EQeoiqww7TGT7LY=
+		8Ys0z6W2bgl4Nhsjk/ZVzO/Ha6c=
 		</data>
-		<key>Frameworks/PensaCore.framework/amplifyconfiguration_dev.json</key>
+		<key>Headers/PensaSdk-Swift.h</key>
 		<data>
-		b+3AeV6XDNR+BzTuQJZblMgty5k=
+		MIQ++5Fu26B5FNPiDdVBEGuNOY0=
 		</data>
-		<key>Frameworks/PensaCore.framework/amplifyconfiguration_prod.json</key>
+		<key>Headers/PensaSdk.h</key>
 		<data>
-		6JiTlAEYs1Fa9J3kEh+nxajMQO0=
+		nhlOIVE7tnFj7Qz1tvUsTOahfkI=
 		</data>
-		<key>Frameworks/PensaCore.framework/fr-CA.lproj/CantScan.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			g3b8+AqRjNii18XOxX3FPVZHOOk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PensaCore.framework/fr-CA.lproj/IBCPortraitCamera.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/s9zaEHC3eXuhV8LgChA3p9TGLI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PensaCore.framework/tr.lproj/CantScan.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hosJsMY821T3n8kjdNbWVncj4FU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PensaCore.framework/tr.lproj/IBCPortraitCamera.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			k2hkzd+O/cb+FDS2e7BfykQrNmg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
+		<key>IBCPortraitCamera.storyboardc/0wH-4d-tys-view-18R-1K-Xau.nib</key>
+		<data>
+		yKo70jZLTyCzSVGHBRP9UDLLq4w=
+		</data>
+		<key>IBCPortraitCamera.storyboardc/GVL-GV-1kF-view-9dq-M9-sfn.nib</key>
+		<data>
+		mYBvGgfDdzm7JRgHKkC1vQhWY3M=
+		</data>
+		<key>IBCPortraitCamera.storyboardc/HowToScan.nib</key>
+		<data>
+		Ow46/Ni4eIN32P6MCh5mtQb4kVA=
+		</data>
+		<key>IBCPortraitCamera.storyboardc/IBCPortraitCamera.nib</key>
+		<data>
+		BNDczVdJNkuPdpa50wJB2f7wsxg=
+		</data>
+		<key>IBCPortraitCamera.storyboardc/IBCPortraitPlayback.nib</key>
+		<data>
+		Znsmj8mM2aFcIPgrz+B0KAfexMY=
+		</data>
+		<key>IBCPortraitCamera.storyboardc/Info.plist</key>
+		<data>
+		UME7YBYhy5SVJub2TOURaSGBKpg=
+		</data>
+		<key>IBCPortraitCamera.storyboardc/OAN-hK-9yV-view-BYl-4q-HZE.nib</key>
+		<data>
+		CUQK5tRp5VhsZOLVmU2N9NRx63w=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		ZG9PzpH4shk3kyca0WjMEzBtTr4=
+		3gsdspBdnGm7YmF7OvymwH8Aay8=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Q/EU+bwFKjoaiOmLJMCu55h9pa8=
+		E1WqKNZhzIJLPTYMmBh39bfL0js=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		llvAYQKL8mp2VgqrSCS63Y2GRJo=
+		uu+oCAZti7bf0Lkf1rRjDyhSV88=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		u9+r7HSWPwv5rcIHTfLf0jvQZtE=
+		GW3FnTL9pzVcmEEGV6J3rccXu6I=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		llvAYQKL8mp2VgqrSCS63Y2GRJo=
+		uu+oCAZti7bf0Lkf1rRjDyhSV88=
+		</data>
+		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<data>
+		uKMjbyAReBnTK9deFHQWyTGtdxw=
+		</data>
+		<key>Modules/module.modulemap</key>
+		<data>
+		vnHLbWfbzowW1GD+GtFER+8LrTM=
+		</data>
+		<key>PensaLoadingDialog.nib</key>
+		<data>
+		GIW9SliC23eQ+zUl/ijV3ZFKQ80=
+		</data>
+		<key>PensaModel.momd/PensaModel.mom</key>
+		<data>
+		2HmE+KBCRuJmTGRC3cE2a1Z2dxo=
+		</data>
+		<key>PensaModel.momd/VersionInfo.plist</key>
+		<data>
+		t53mWcj/o03go5SdOCUld31n6sc=
+		</data>
+		<key>amplifyconfiguration.json</key>
+		<data>
+		6JiTlAEYs1Fa9J3kEh+nxajMQO0=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/PensaCore.framework/Assets.car</key>
+		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MJKXT8X7MwZFWER+i5UDaslRs6qo7ENDHSEK8WEl28E=
+			enSZZdVNg3Cb5KqkR+3E/o//+QqiA0NYWUNrjNR42g4=
 			</data>
 		</dict>
-		<key>Frameworks/PensaCore.framework/Base.lproj/CantScan.storyboardc/CantScanController.nib</key>
+		<key>CantScan.storyboardc/CantScanVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4K9utfJNcO9DWQ/0yLEzklTzWcogqkv/bqrtX3U0EPk=
+			EcRo3od2Z5CVIvte9c+RV3SvAAN7EJ6xQl5YDSy4nOc=
 			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
-		<key>Frameworks/PensaCore.framework/Base.lproj/CantScan.storyboardc/CantScanVC.nib</key>
+		<key>CantScan.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mL+br1bZPSHgiUc62wWtT821+8yvR9bdOLDGJbgUPjQ=
+			C4NAsL/ImMn+01s937omaIzRiNjuVUxjQhZ9GOCoMFw=
 			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
-		<key>Frameworks/PensaCore.framework/Base.lproj/CantScan.storyboardc/Info.plist</key>
+		<key>CantScan.storyboardc/UyF-E7-QpB-view-CPi-Xt-mgI.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+YCFGnlW2XIr8OICwgfUw6LTm2+H5/paSItx9Chbnqg=
+			fneVVcRHSiIcHyAtknQcRA/V4tOJVyXc3+GU9/sKER0=
 			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
-		<key>Frameworks/PensaCore.framework/Base.lproj/CantScan.storyboardc/ce6-nM-OiE-view-8wo-mp-eFV.nib</key>
+		<key>Headers/PensaSdk-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qacU13odh1i0Kn0OuV2Vx7TX/t9Mo1d6yvwn2qGTdkc=
+			nS9an8SX46WYBLFcRA7jTRQyz5BMncAYHGiOq3SPy7U=
 			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
-		<key>Frameworks/PensaCore.framework/Base.lproj/IBCPortraitCamera.storyboardc/0wH-4d-tys-view-18R-1K-Xau.nib</key>
+		<key>Headers/PensaSdk.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mKGYGJgBWGscYwyHXADeZiforADHKa2gYklP8VPgnkA=
+			oKxmEiiESF31ZboMIY8ufTikPnN1lyVj2DS650/ozFI=
 			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
-		<key>Frameworks/PensaCore.framework/Base.lproj/IBCPortraitCamera.storyboardc/GVL-GV-1kF-view-9dq-M9-sfn.nib</key>
+		<key>IBCPortraitCamera.storyboardc/0wH-4d-tys-view-18R-1K-Xau.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			05BWXuVRe+lCgSG6BGG2RwpnjmlaZskt98EAFOTk4pk=
+			VMj8+bKXkCuM1zDtNuxfT9tJZEQSO12EPNbvBwrqUKs=
 			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
-		<key>Frameworks/PensaCore.framework/Base.lproj/IBCPortraitCamera.storyboardc/HowToScan.nib</key>
+		<key>IBCPortraitCamera.storyboardc/GVL-GV-1kF-view-9dq-M9-sfn.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/nvrlOYyYphiikWVmanNlICxddByVf+LsNBZo550v6A=
+			j15HpZaeyKEzAez5mIHtfeJ6qDxm7KQhMhiE+3ehKV4=
 			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
-		<key>Frameworks/PensaCore.framework/Base.lproj/IBCPortraitCamera.storyboardc/IBCPortraitCamera.nib</key>
+		<key>IBCPortraitCamera.storyboardc/HowToScan.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J2Viub3PmKDvboBE4rgPnFBb3oAlFDfDrapeU/Llz+k=
+			W//AQTuwyqoO7dikuQFNNTzV6KH/i2yrHfQX4pMW1Dc=
 			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
-		<key>Frameworks/PensaCore.framework/Base.lproj/IBCPortraitCamera.storyboardc/IBCPortraitPlayback.nib</key>
+		<key>IBCPortraitCamera.storyboardc/IBCPortraitCamera.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A7AgdK3drie7XXLq3e7UvIX5AnK4GragwwRbkZROvvE=
+			q63KlzSc2jk/6DdZQXjygqyVje2zCNOrNiRfaM/sp/U=
 			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
-		<key>Frameworks/PensaCore.framework/Base.lproj/IBCPortraitCamera.storyboardc/Info.plist</key>
+		<key>IBCPortraitCamera.storyboardc/IBCPortraitPlayback.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TAS6RvEO6bVpIeSVLop27zX2ApNUC0/Z9w64nh2w7BE=
+			</data>
+		</dict>
+		<key>IBCPortraitCamera.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			eEP9noDV/VKnnUGqzqINY+6HI0fH2RnpQp7kEZhBSYY=
 			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
-		<key>Frameworks/PensaCore.framework/Base.lproj/IBCPortraitCamera.storyboardc/OAN-hK-9yV-view-BYl-4q-HZE.nib</key>
+		<key>IBCPortraitCamera.storyboardc/OAN-hK-9yV-view-BYl-4q-HZE.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TRKpB7toSwzlCD6dRKjYyJxAe+uRABPiLDs70aUPh4I=
+			oOGZ+/Boy3oRUVTpit6qjxg4SQdc74gMW+Zq8wC2Rl4=
 			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PensaCore.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			M9Dvpuza9lej2BoOqAOex9LasRAA+maaLfzkl5UoVvU=
-			</data>
-		</dict>
-		<key>Frameworks/PensaCore.framework/PensaCore</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yIlL0N09rTHpC+AaHuucQewfHUpmDGShe4S7qONrqS0=
-			</data>
-		</dict>
-		<key>Frameworks/PensaCore.framework/PensaLoadingDialog.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VNqBtJ7cRg9F/5AO1VfECAVMRQxwjJTjCBFLmz5pAzU=
-			</data>
-		</dict>
-		<key>Frameworks/PensaCore.framework/amplifyconfiguration_dev.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/HWujY9j2OX6XD+y7+7/Z/Yb74n4sXWRD02cad2bdHQ=
-			</data>
-		</dict>
-		<key>Frameworks/PensaCore.framework/amplifyconfiguration_prod.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bhlCIRfNdfBh73MIRUmLFsn5rSo5WnJVCH07AX6rvO0=
-			</data>
-		</dict>
-		<key>Frameworks/PensaCore.framework/fr-CA.lproj/CantScan.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+S22VEX1SUAa2Rc2LvmBf1Q5n7WtI0xiWnETKkN31g4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PensaCore.framework/fr-CA.lproj/IBCPortraitCamera.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			D5gDblrh682T8a+9xj65hQXteMZ4vMCIdwcpb3LnOLU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PensaCore.framework/tr.lproj/CantScan.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7lTX/pU+D1+Csl7RAhbLvRiWe3xqhy3cJ52eG8o5HNA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PensaCore.framework/tr.lproj/IBCPortraitCamera.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RQZSH2ejWtgpGaFG5hHawU0aAbmWim36x5bkYUT20bw=
-			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mDorKCmyOAR7UO/cD19SS/M4jden2weStrqmrzj8x9Y=
+			ikGw9dJkuvITTloy9g6VLe3FZhttJiaTjAddYVL09io=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+fPLa/sRdqBKkrLnx/mq4vlgd6p9uyeWdHvcwechdFE=
+			hLj1+IynFXdKhd0zyxH/sFXsVxi8Q6NBan7TOISp96s=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ScrkzSpOWeBaLCuAJSGVLg8pCL/LjGKutTbVh7elnj0=
+			/8k2DVn1Rrt8ChGvMjOPTEwquRTKE0IYzbZ3ZonKxGU=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+fPLa/sRdqBKkrLnx/mq4vlgd6p9uyeWdHvcwechdFE=
+			hLj1+IynFXdKhd0zyxH/sFXsVxi8Q6NBan7TOISp96s=
+			</data>
+		</dict>
+		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sjGGeqRcuHQUyDpT56Zr+MthDfmhJTi3r95mIJMgQhE=
+			</data>
+		</dict>
+		<key>Modules/module.modulemap</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2rC5Bz/C/PrgrWlCxBUBmjqAtfTSblA/In0aohL6skA=
+			</data>
+		</dict>
+		<key>PensaLoadingDialog.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vDplvPovUB/wRSylHRSLWIZ+wL6S8vkXKcQ7cPnyM04=
+			</data>
+		</dict>
+		<key>PensaModel.momd/PensaModel.mom</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Bl26BluCMVB6TogTpPAtmvMQmKA3wh8ROGuUs5TmAh4=
+			</data>
+		</dict>
+		<key>PensaModel.momd/VersionInfo.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			T2+HxeGWGc2KQL8MusZmn22nj5r0iVacsY6MnDkC1Kw=
+			</data>
+		</dict>
+		<key>amplifyconfiguration.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bhlCIRfNdfBh73MIRUmLFsn5rSo5WnJVCH07AX6rvO0=
 			</data>
 		</dict>
 	</dict>
