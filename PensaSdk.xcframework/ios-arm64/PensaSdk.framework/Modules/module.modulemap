@@ -1,0 +1,11 @@
+framework module PensaSdk {
+  umbrella header "PensaSdk.h"
+  export *
+
+  module * { export * }
+}
+
+module PensaSdk.Swift {
+  header "PensaSdk-Swift.h"
+  requires objc
+}
