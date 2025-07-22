@@ -8,10 +8,6 @@
 		<data>
 		wiKXW3EWHhT09gIGoFJtCN/Jy8M=
 		</data>
-		<key>sdk-partitions.json</key>
-		<data>
-		zq/xQlBG1Hb34hSWLKLIjjDIJ7Y=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -24,17 +20,6 @@
 			<key>hash2</key>
 			<data>
 			3vM9AU9ujk0owFdHeT8G4NLkzZi7OpkKSKjdtyiKfNg=
-			</data>
-		</dict>
-		<key>sdk-partitions.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zq/xQlBG1Hb34hSWLKLIjjDIJ7Y=
-			</data>
-			<key>hash2</key>
-			<data>
-			IT1CnlRXhNSlQIhzMmDjcRAXTWnPgC0+fZ286fwkRXw=
 			</data>
 		</dict>
 	</dict>
