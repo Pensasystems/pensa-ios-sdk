@@ -10,6 +10,23 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public struct PensaConfiguration {
+  public let clientId: Swift.String
+  public let clientSecret: Swift.String
+  public let loggingEnabled: Swift.Bool
+  public let scanUploadListener: (any PensaSdk.ScanUploadListener)?
+  public let cantScanEventListener: (any PensaSdk.CantScanEventListener)?
+  public class Builder {
+    public init()
+    public func setClientId(_ clientId: Swift.String) -> PensaSdk.PensaConfiguration.Builder
+    public func setClientSecret(_ clientSecret: Swift.String) -> PensaSdk.PensaConfiguration.Builder
+    public func setLoggingEnabled(_ enabled: Swift.Bool) -> PensaSdk.PensaConfiguration.Builder
+    public func setScanUploadListener(_ listener: any PensaSdk.ScanUploadListener) -> PensaSdk.PensaConfiguration.Builder
+    public func setCantScanEventListener(_ listener: any PensaSdk.CantScanEventListener) -> PensaSdk.PensaConfiguration.Builder
+    public func build() -> PensaSdk.PensaConfiguration
+    @objc deinit
+  }
+}
 public struct PensaError : Foundation.LocalizedError {
   public var errorDescription: Swift.String {
     get
@@ -41,21 +58,4 @@ public protocol ScanUploadListener {
   public func showStoreSearchView()
   public func showStoreChecklist(sectionKey: Swift.String?, guid: Swift.String?, globalStoreId: Swift.String, onError: @escaping (PensaSdk.PensaError) -> Swift.Void = { _ in })
   @objc deinit
-}
-public struct PensaConfiguration {
-  public let clientId: Swift.String
-  public let clientSecret: Swift.String
-  public let loggingEnabled: Swift.Bool
-  public let scanUploadListener: (any PensaSdk.ScanUploadListener)?
-  public let cantScanEventListener: (any PensaSdk.CantScanEventListener)?
-  public class Builder {
-    public init()
-    public func setClientId(_ clientId: Swift.String) -> PensaSdk.PensaConfiguration.Builder
-    public func setClientSecret(_ clientSecret: Swift.String) -> PensaSdk.PensaConfiguration.Builder
-    public func setLoggingEnabled(_ enabled: Swift.Bool) -> PensaSdk.PensaConfiguration.Builder
-    public func setScanUploadListener(_ listener: any PensaSdk.ScanUploadListener) -> PensaSdk.PensaConfiguration.Builder
-    public func setCantScanEventListener(_ listener: any PensaSdk.CantScanEventListener) -> PensaSdk.PensaConfiguration.Builder
-    public func build() -> PensaSdk.PensaConfiguration
-    @objc deinit
-  }
 }
