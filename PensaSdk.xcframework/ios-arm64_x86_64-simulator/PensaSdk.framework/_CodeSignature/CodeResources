@@ -6,7 +6,7 @@
 	<dict>
 		<key>Frameworks/PensaCore.framework/Assets.car</key>
 		<data>
-		SGAfWxZ++Sfwg/gvPFEuOf+jtXI=
+		WvNlLkqlqXWMahIvm8grYKyNyx4=
 		</data>
 		<key>Frameworks/PensaCore.framework/Base.lproj/CantScan.storyboardc/CantScanController.nib</key>
 		<dict>
@@ -109,11 +109,11 @@
 		</dict>
 		<key>Frameworks/PensaCore.framework/Info.plist</key>
 		<data>
-		YzXulsHdz9mP49Ut0xAbxkaizPg=
+		JOkmz7JoWgFnIERhiqOoVuuU+W0=
 		</data>
 		<key>Frameworks/PensaCore.framework/PensaCore</key>
 		<data>
-		LwOTMt7A6EjuGkHr0cCm7wlpSWw=
+		+/R08xS51N38CJMHDgavDtyXrBA=
 		</data>
 		<key>Frameworks/PensaCore.framework/PensaLoadingDialog.nib</key>
 		<data>
@@ -121,7 +121,7 @@
 		</data>
 		<key>Frameworks/PensaCore.framework/_CodeSignature/CodeResources</key>
 		<data>
-		OrccBqCfff2mIl1MhSb516fCZUg=
+		h1X3YIon93stYrEkyr2njS/muiI=
 		</data>
 		<key>Frameworks/PensaCore.framework/amplifyconfiguration_dev.json</key>
 		<data>
@@ -169,7 +169,7 @@
 		</dict>
 		<key>Info.plist</key>
 		<data>
-		ppnqHSeygTxUShARjp/QJg8RY8U=
+		B6xeEvHo5ogTH57FpTu1ivyQp2k=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -189,7 +189,7 @@
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/Z6gJGzNNtPG2YRPU5eWBaMIlpI=
+		eRae8WxJTLqrCwFN8ulgcqYY3w0=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -209,7 +209,7 @@
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rOstTNDLXIznI/j5yTWWMd+WTSo=
+		IRHUxYDd9SO8c88MAyw1+1un2sM=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -218,7 +218,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fcOy5nKbGUvx0aWX86xYs8auu9MwL08IoCoM0a7e2Kc=
+			e6WaXoz0Xq+x/4/SP5moV5FoSsabKTPHe7ls5sVipqA=
 			</data>
 		</dict>
 		<key>Frameworks/PensaCore.framework/Base.lproj/CantScan.storyboardc/CantScanController.nib</key>
@@ -324,14 +324,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9TssLchBud1uN1fQ0poqpmEr1TgAtRj6+NjoYyV9JrM=
+			39NGaoPHjnpttF/kYHqwSAnrJT7kdAxitfi823T7HnE=
 			</data>
 		</dict>
 		<key>Frameworks/PensaCore.framework/PensaCore</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JNrMVYugRninKgKYpa5pwypo1aecY9TTG/bPaFP6yk8=
+			FwTfc10AeobCo0VWgMydKmThegQ32DYa7s8TOBMTPaw=
 			</data>
 		</dict>
 		<key>Frameworks/PensaCore.framework/PensaLoadingDialog.nib</key>
@@ -345,7 +345,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L0zoy6ol/+wiql2xx3i6NADweQKCXJx8jzn9j+17ong=
+			+31UCwClCgzFko49fNj7V4BBtWnmq5SIqPwA8ZVS8jY=
 			</data>
 		</dict>
 		<key>Frameworks/PensaCore.framework/amplifyconfiguration_dev.json</key>
@@ -430,7 +430,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qhQFp4TeBQi53MxeVHUianBcL0G0+zJQU3yjD38eMTg=
+			MdJPcuD7h71qdpTlVnYgeCT8i7xW4/o17IXrmUqLkFA=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -465,7 +465,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2od87D+OSGnQ9fpJ3S7ceH47UGZ5V5dCyozkIFW1wx0=
+			KXWgfqfFSxBJRUcXoXa7sgJv3pEpstyVo6EK3gKfCf0=
 			</data>
 		</dict>
 	</dict>
