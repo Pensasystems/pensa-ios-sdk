@@ -36,7 +36,7 @@ public protocol ScanUploadListener {
   public func showStockingScreen()
   public func showShelfScans()
   public func showProductScans()
-  public func showScanArea(with scanAreaId: Swift.Int)
+  public func showScanArea(scanId: Swift.Int, storeId: Swift.Int? = nil, globalStoreId: Swift.String? = nil)
   public func showStoreSearchView()
   public func showStoreChecklist(sectionKey: Swift.String?, guid: Swift.String?, globalStoreId: Swift.String, onError: @escaping (PensaSdk.PensaError) -> Swift.Void = { _ in })
   @objc deinit
