@@ -2015,7 +2015,7 @@
           {
             "kind": "Function",
             "name": "showScanArea",
-            "printedName": "showScanArea(with:)",
+            "printedName": "showScanArea(scanId:storeId:globalStoreId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2027,11 +2027,41 @@
                 "name": "Int",
                 "printedName": "Swift.Int",
                 "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8PensaSdk0A0C12showScanArea4withySi_tF",
-            "mangledName": "$s8PensaSdk0A0C12showScanArea4withySi_tF",
+            "usr": "s:8PensaSdk0A0C12showScanArea6scanId05storeG0011globalStoreG0ySi_SiSgSSSgtF",
+            "mangledName": "$s8PensaSdk0A0C12showScanArea6scanId05storeG0011globalStoreG0ySi_SiSgSSSgtF",
             "moduleName": "PensaSdk",
             "isOpen": true,
             "declAttributes": [
@@ -4622,21 +4652,21 @@
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Pensa.swift",
       "kind": "StringLiteral",
-      "offset": 449,
+      "offset": 499,
       "length": 27,
       "value": "\"com.pensasystems.PensaSdk\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Pensa.swift",
       "kind": "StringLiteral",
-      "offset": 497,
+      "offset": 547,
       "length": 12,
       "value": "\"PensaModel\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Pensa.swift",
       "kind": "BooleanLiteral",
-      "offset": 540,
+      "offset": 590,
       "length": 5,
       "value": "false"
     },

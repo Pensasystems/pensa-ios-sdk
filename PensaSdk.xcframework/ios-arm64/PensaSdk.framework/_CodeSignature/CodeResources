@@ -6,7 +6,7 @@
 	<dict>
 		<key>Frameworks/PensaCore.framework/Assets.car</key>
 		<data>
-		WvNlLkqlqXWMahIvm8grYKyNyx4=
+		0xJpWHhj2Dw7SImkoS/tGWMoUVQ=
 		</data>
 		<key>Frameworks/PensaCore.framework/Base.lproj/CantScan.storyboardc/CantScanController.nib</key>
 		<dict>
@@ -113,7 +113,7 @@
 		</data>
 		<key>Frameworks/PensaCore.framework/PensaCore</key>
 		<data>
-		CLtKkmKFDkB6wFagMVYnHoXNii4=
+		E+7gfF9Po5CraHygCF1IGZwW6j8=
 		</data>
 		<key>Frameworks/PensaCore.framework/PensaLoadingDialog.nib</key>
 		<data>
@@ -121,7 +121,7 @@
 		</data>
 		<key>Frameworks/PensaCore.framework/_CodeSignature/CodeResources</key>
 		<data>
-		5wOgzHMzvr3aQoBVaX1YPKXQtuQ=
+		94SyUsUP5xR5QIoUs5CwrHs1zP8=
 		</data>
 		<key>Frameworks/PensaCore.framework/amplifyconfiguration_dev.json</key>
 		<data>
@@ -173,11 +173,11 @@
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		u2/r6TN6BSZu4lX2jajGAl7tdoo=
+		eO73hOTPMcnsQd8QEMDC3ju0WLA=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		RGzpoe+1DTqCrXyWl/dZYFpVvXs=
+		mH+RH+q/ypjBJnAMkYGrFYsnTHg=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -185,11 +185,11 @@
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		RGzpoe+1DTqCrXyWl/dZYFpVvXs=
+		mH+RH+q/ypjBJnAMkYGrFYsnTHg=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		dufmoBaso5z5Vwmd9IkHRrEyOHg=
+		OgVvsCnzOauQsBfDN76aCAthA8U=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -198,7 +198,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e6WaXoz0Xq+x/4/SP5moV5FoSsabKTPHe7ls5sVipqA=
+			rU4H+Yg/bm2gc2udfU5ddbulOq6Ua1vh7BH+s9HlvHc=
 			</data>
 		</dict>
 		<key>Frameworks/PensaCore.framework/Base.lproj/CantScan.storyboardc/CantScanController.nib</key>
@@ -311,7 +311,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YAa7XooBbSqWtWk+ljJs1kemtw/QnuCAFUei+uKer2U=
+			Q6vnXLbn9iuzFeWj6r7tth3+rYtR1tzFepIO/Y39DL0=
 			</data>
 		</dict>
 		<key>Frameworks/PensaCore.framework/PensaLoadingDialog.nib</key>
@@ -325,7 +325,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BGKyfv4XzAqFOPKW+FCbL+/DN8Eru72XM3MhQy4ROz8=
+			w0paqQrQFhXSMTAmv9CKvOE4zF9Z5IQzwhXExeS/wZY=
 			</data>
 		</dict>
 		<key>Frameworks/PensaCore.framework/amplifyconfiguration_dev.json</key>
@@ -382,14 +382,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cke99acTIwCMbj1SjXxDsIynOqvW+XQZkEENBa+p/H4=
+			kA/5f/6FrU5JOsrMbLq4NYKlfgHHp3MSu70ImAh0IRU=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xQta4taVV7YpjxJiSqN2Qt1tTEX4MIWxN+TAPhk9PkE=
+			Pd1QNIIre3czObbYhGrrI4E2/DUtBv5V8G9NCgQ+jXE=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -403,14 +403,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xQta4taVV7YpjxJiSqN2Qt1tTEX4MIWxN+TAPhk9PkE=
+			Pd1QNIIre3czObbYhGrrI4E2/DUtBv5V8G9NCgQ+jXE=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uGRiT403nWMCRB4LhHj8O3cUWMmaWLyFmatqhzSVs6E=
+			nqteJbQF7p7HWCZfv++qa4cnWfGcacMrwpWIJ7pX4Bk=
 			</data>
 		</dict>
 	</dict>
