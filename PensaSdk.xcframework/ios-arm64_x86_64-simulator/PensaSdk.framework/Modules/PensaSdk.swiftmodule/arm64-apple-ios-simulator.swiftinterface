@@ -26,10 +26,11 @@ public struct PensaOnDemandReport {
   public let projectReportId: Swift.Int?
   public let projectReportName: Swift.String?
   public let facingsSeen: PensaSdk.PensaOnDemandReportItem?
+  public let itemsSeen: PensaSdk.PensaOnDemandReportItem?
   public let shelfId: Swift.Int?
   public let shelfName: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(facingsSeen: PensaSdk.PensaOnDemandReportItem?, projectId: Swift.Int?, projectName: Swift.String?, projectReportId: Swift.Int?, projectReportName: Swift.String?, shelfId: Swift.Int?, shelfName: Swift.String?)
+  public init(facingsSeen: PensaSdk.PensaOnDemandReportItem?, itemsSeen: PensaSdk.PensaOnDemandReportItem?, projectId: Swift.Int?, projectName: Swift.String?, projectReportId: Swift.Int?, projectReportName: Swift.String?, shelfId: Swift.Int?, shelfName: Swift.String?)
   #endif
 }
 public struct PensaOnDemandReportItem {
@@ -56,6 +57,17 @@ public struct PensaOnDemandProduct {
   #if compiler(>=5.3) && $NonescapableTypes
   public init(brand: Swift.String?, brandId: Swift.Int?, category: Swift.String?, categoryId: Swift.Int?, facings: Swift.Int?, manufacturer: Swift.String?, manufacturerId: Swift.Int?, product: Swift.String?, productId: Swift.Int?, upc: Swift.String?)
   #endif
+}
+public enum PensaReportType : Swift.String {
+  case facingsSeen
+  case itemsSeen
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
 }
 public struct PensaScanStatus {
   public let created: Swift.String?
@@ -102,7 +114,7 @@ public protocol ScanUploadListener {
   public func showStoreChecklist(sectionKey: Swift.String?, guid: Swift.String?, globalStoreId: Swift.String, onError: @escaping (PensaSdk.PensaError) -> Swift.Void = { _ in })
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  public func fetchOnDemandReports(scanId: Swift.Int, projectId: Swift.Int?, onSuccess: @escaping (PensaSdk.PensaOnDemandReport) -> Swift.Void, onError: @escaping (PensaSdk.PensaError) -> Swift.Void)
+  public func fetchOnDemandReports(scanId: Swift.Int, projectId: Swift.Int?, reportType: PensaSdk.PensaReportType = .itemsSeen, onSuccess: @escaping (PensaSdk.PensaOnDemandReport) -> Swift.Void, onError: @escaping (PensaSdk.PensaError) -> Swift.Void)
   #endif
   public func fetchScanStatuses(scanIds: [Swift.Int], onSuccess: @escaping ([PensaSdk.PensaScanStatus]) -> Swift.Void, onError: @escaping (PensaSdk.PensaError) -> Swift.Void)
   public func fetchProductImageBase64(productId: Swift.Int, onSuccess: @escaping (Swift.String) -> Swift.Void, onError: @escaping (PensaSdk.PensaError) -> Swift.Void)
@@ -125,3 +137,6 @@ public struct PensaConfiguration {
     @objc deinit
   }
 }
+extension PensaSdk.PensaReportType : Swift.Equatable {}
+extension PensaSdk.PensaReportType : Swift.Hashable {}
+extension PensaSdk.PensaReportType : Swift.RawRepresentable {}
