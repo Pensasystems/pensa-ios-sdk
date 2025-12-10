@@ -21,9 +21,21 @@ public struct PensaError : Foundation.LocalizedError {
   }
 }
 public struct PensaOnDemandReport {
-  public let itemsSeen: PensaSdk.PensaOnDemandReportBucket?
+  public let facingsSeen: PensaSdk.PensaOnDemandReportItem?
+  public let shelfId: Swift.Int?
+  public let shelfName: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(itemsSeen: PensaSdk.PensaOnDemandReportBucket?)
+  public init(facingsSeen: PensaSdk.PensaOnDemandReportItem?, shelfId: Swift.Int?, shelfName: Swift.String?)
+  #endif
+}
+public struct PensaOnDemandReportItem {
+  public let projectId: Swift.Int?
+  public let projectName: Swift.String?
+  public let projectReportId: Swift.Int?
+  public let projectReportName: Swift.String?
+  public let report: PensaSdk.PensaOnDemandReportBucket?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(projectId: Swift.Int?, projectName: Swift.String?, projectReportId: Swift.Int?, projectReportName: Swift.String?, report: PensaSdk.PensaOnDemandReportBucket?)
   #endif
 }
 public struct PensaOnDemandReportBucket {
@@ -35,57 +47,33 @@ public struct PensaOnDemandProduct {
   public let brandId: Swift.Int?
   public let category: Swift.String?
   public let categoryId: Swift.Int?
+  public let facings: Swift.Int?
   public let manufacturer: Swift.String?
   public let manufacturerId: Swift.Int?
   public let product: Swift.String?
   public let productId: Swift.Int?
   public let upc: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(brand: Swift.String?, brandId: Swift.Int?, category: Swift.String?, categoryId: Swift.Int?, manufacturer: Swift.String?, manufacturerId: Swift.Int?, product: Swift.String?, productId: Swift.Int?, upc: Swift.String?)
+  public init(brand: Swift.String?, brandId: Swift.Int?, category: Swift.String?, categoryId: Swift.Int?, facings: Swift.Int?, manufacturer: Swift.String?, manufacturerId: Swift.Int?, product: Swift.String?, productId: Swift.Int?, upc: Swift.String?)
   #endif
 }
 public struct PensaScanStatus {
-  public let captureType: Swift.String?
   public let created: Swift.String?
   public let fastStatus: Swift.String?
-  public let frameHeight: Swift.Int?
-  public let frameWidth: Swift.Int?
-  public let hasOutOfServiceSegment: Swift.Bool?
   public let id: Swift.Int
-  public let imageCaptureQuality: Swift.String?
   public let metadata: PensaSdk.PensaScanMetadata?
-  public let publish: Swift.Bool?
-  public let scanAreaId: Swift.Int?
-  public let scanMetadataGuid: Swift.String?
-  public let scanMetadataServerUploadStarted: Swift.String?
   public let scanTimestamp: Swift.String?
   public let scannerId: Swift.Int?
-  public let shelfScanPeriodId: Swift.Int?
   public let status: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(captureType: Swift.String?, created: Swift.String?, fastStatus: Swift.String?, frameHeight: Swift.Int?, frameWidth: Swift.Int?, hasOutOfServiceSegment: Swift.Bool?, id: Swift.Int, imageCaptureQuality: Swift.String?, metadata: PensaSdk.PensaScanMetadata?, publish: Swift.Bool?, scanAreaId: Swift.Int?, scanMetadataGuid: Swift.String?, scanMetadataServerUploadStarted: Swift.String?, scanTimestamp: Swift.String?, scannerId: Swift.Int?, shelfScanPeriodId: Swift.Int?, status: Swift.String?)
+  public init(id: Swift.Int, created: Swift.String?, fastStatus: Swift.String?, metadata: PensaSdk.PensaScanMetadata?, scanTimestamp: Swift.String?, scannerId: Swift.Int?, status: Swift.String?)
   #endif
 }
 public struct PensaScanMetadata {
-  public let applicationId: Swift.String?
-  public let deviceNetworkName: Swift.String?
-  public let deviceNetworkType: Swift.String?
-  public let focalLength: Swift.Double?
-  public let frameCaptureRate: Swift.Double?
   public let guid: Swift.String?
-  public let ignoreLateUpload: Swift.Bool?
-  public let imageHeight: Swift.Int?
-  public let imageWidth: Swift.Int?
-  public let lensDistortion: [Swift.Double]?
-  public let lensIntrinsicCalibration: [Swift.Double]?
-  public let mobileCaptureCompleted: Swift.String?
-  public let odrStatus: Swift.String?
-  public let pauseList: [Swift.String]?
-  public let pipelineName: Swift.String?
-  public let sensorPhysicalWidthHeight: [Swift.Double]?
   public let serverUploadStarted: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(applicationId: Swift.String?, deviceNetworkName: Swift.String?, deviceNetworkType: Swift.String?, focalLength: Swift.Double?, frameCaptureRate: Swift.Double?, guid: Swift.String?, ignoreLateUpload: Swift.Bool?, imageHeight: Swift.Int?, imageWidth: Swift.Int?, lensDistortion: [Swift.Double]?, lensIntrinsicCalibration: [Swift.Double]?, mobileCaptureCompleted: Swift.String?, odrStatus: Swift.String?, pauseList: [Swift.String]?, pipelineName: Swift.String?, sensorPhysicalWidthHeight: [Swift.Double]?, serverUploadStarted: Swift.String?)
+  public init(guid: Swift.String?, serverUploadStarted: Swift.String?)
   #endif
 }
 public protocol CantScanEventListener {

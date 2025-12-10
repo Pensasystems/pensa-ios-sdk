@@ -10,11 +10,11 @@
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		8o5HV5dKQ5qjwail99aJdKcOcg4=
+		17TRIj/Dod9qMa9teWvcoyamj1M=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		bu6pDuxunxA8XBCp7pZsvlTQg0k=
+		UYrbOmqalJAHm3zNl5zD1MEJYTI=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -22,15 +22,15 @@
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		bu6pDuxunxA8XBCp7pZsvlTQg0k=
+		UYrbOmqalJAHm3zNl5zD1MEJYTI=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		kthBuGHBp0vds+oldN9BNe+ArwQ=
+		3pJ+ZPFfyKiyvSks8J9dic+BgtU=
 		</data>
 		<key>PensaCoreResources.bundle/Assets.car</key>
 		<data>
-		xdlxW41xFG6kMD7I9nY6+Yv8j2M=
+		aYY1QXkVOeOXk+WoB9R23UEVVGI=
 		</data>
 		<key>PensaCoreResources.bundle/Base.lproj/CantScan.storyboardc/CantScanController.nib</key>
 		<dict>
@@ -213,14 +213,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J9SF+5GW6HCGY1mnmSPlkBfqBASLVxZAa1nv8/5xJws=
+			iYAQ+6/qFN33GmnQg42G/gIEiB5EtX/zcr0w4BGNa3E=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oaEpP0YLMAp97dRN0qX8345NHUlYEmnND1MAy7wfvmM=
+			Hg2zFdQkQzmNrk/fENprztv7VIV9hfvxXV0g2tpfI9k=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -234,21 +234,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oaEpP0YLMAp97dRN0qX8345NHUlYEmnND1MAy7wfvmM=
+			Hg2zFdQkQzmNrk/fENprztv7VIV9hfvxXV0g2tpfI9k=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NCQqeqwH/7naoW8LxfXvUnfn7qM3BSYIbz0wYDmUFQU=
+			TlcsT9KIocoHqcNRoj8PUYQ0q86hg/Qpzl75Pm3N2PU=
 			</data>
 		</dict>
 		<key>PensaCoreResources.bundle/Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/01ot11oIJJ5y5SmxY8sFiWfNI5iGPYFXbDhYmZ2Ax4=
+			jKsf/VsFSPIG628x5z8AMnVWzNrqOc716FEJ4p8eEhY=
 			</data>
 		</dict>
 		<key>PensaCoreResources.bundle/Base.lproj/CantScan.storyboardc/CantScanController.nib</key>
