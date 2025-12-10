@@ -959,6 +959,66 @@
           },
           {
             "kind": "Var",
+            "name": "itemsSeen",
+            "printedName": "itemsSeen",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PensaSdk.PensaOnDemandReportItem?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PensaOnDemandReportItem",
+                    "printedName": "PensaSdk.PensaOnDemandReportItem",
+                    "usr": "s:8PensaSdk0A18OnDemandReportItemV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PensaSdk0A14OnDemandReportV9itemsSeenAA0acdE4ItemVSgvp",
+            "mangledName": "$s8PensaSdk0A14OnDemandReportV9itemsSeenAA0acdE4ItemVSgvp",
+            "moduleName": "PensaSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "PensaSdk.PensaOnDemandReportItem?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PensaOnDemandReportItem",
+                        "printedName": "PensaSdk.PensaOnDemandReportItem",
+                        "usr": "s:8PensaSdk0A18OnDemandReportItemV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PensaSdk0A14OnDemandReportV9itemsSeenAA0acdE4ItemVSgvg",
+                "mangledName": "$s8PensaSdk0A14OnDemandReportV9itemsSeenAA0acdE4ItemVSgvg",
+                "moduleName": "PensaSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "shelfId",
             "printedName": "shelfId",
             "children": [
@@ -1080,13 +1140,27 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(facingsSeen:projectId:projectName:projectReportId:projectReportName:shelfId:shelfName:)",
+            "printedName": "init(facingsSeen:itemsSeen:projectId:projectName:projectReportId:projectReportName:shelfId:shelfName:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "PensaOnDemandReport",
                 "printedName": "PensaSdk.PensaOnDemandReport",
                 "usr": "s:8PensaSdk0A14OnDemandReportV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PensaSdk.PensaOnDemandReportItem?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PensaOnDemandReportItem",
+                    "printedName": "PensaSdk.PensaOnDemandReportItem",
+                    "usr": "s:8PensaSdk0A18OnDemandReportItemV"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -1188,8 +1262,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8PensaSdk0A14OnDemandReportV11facingsSeen9projectId0H4Name0heI00heJ005shelfI00kJ0AcA0acdE4ItemVSg_SiSgSSSgAnonOtcfc",
-            "mangledName": "$s8PensaSdk0A14OnDemandReportV11facingsSeen9projectId0H4Name0heI00heJ005shelfI00kJ0AcA0acdE4ItemVSg_SiSgSSSgAnonOtcfc",
+            "usr": "s:8PensaSdk0A14OnDemandReportV11facingsSeen05itemsG09projectId0I4Name0ieJ00ieK005shelfJ00lK0AcA0acdE4ItemVSg_ANSiSgSSSgAopoPtcfc",
+            "mangledName": "$s8PensaSdk0A14OnDemandReportV11facingsSeen05itemsG09projectId0I4Name0ieJ00ieK005shelfJ00lK0AcA0acdE4ItemVSg_ANSiSgSSSgAopoPtcfc",
             "moduleName": "PensaSdk",
             "declAttributes": [
               "AccessControl"
@@ -2260,6 +2334,220 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PensaReportType",
+        "printedName": "PensaReportType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "facingsSeen",
+            "printedName": "facingsSeen",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PensaSdk.PensaReportType.Type) -> PensaSdk.PensaReportType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PensaReportType",
+                    "printedName": "PensaSdk.PensaReportType",
+                    "usr": "s:8PensaSdk0A10ReportTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PensaSdk.PensaReportType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PensaReportType",
+                        "printedName": "PensaSdk.PensaReportType",
+                        "usr": "s:8PensaSdk0A10ReportTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PensaSdk0A10ReportTypeO11facingsSeenyA2CmF",
+            "mangledName": "$s8PensaSdk0A10ReportTypeO11facingsSeenyA2CmF",
+            "moduleName": "PensaSdk"
+          },
+          {
+            "kind": "Var",
+            "name": "itemsSeen",
+            "printedName": "itemsSeen",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PensaSdk.PensaReportType.Type) -> PensaSdk.PensaReportType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PensaReportType",
+                    "printedName": "PensaSdk.PensaReportType",
+                    "usr": "s:8PensaSdk0A10ReportTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PensaSdk.PensaReportType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PensaReportType",
+                        "printedName": "PensaSdk.PensaReportType",
+                        "usr": "s:8PensaSdk0A10ReportTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8PensaSdk0A10ReportTypeO9itemsSeenyA2CmF",
+            "mangledName": "$s8PensaSdk0A10ReportTypeO9itemsSeenyA2CmF",
+            "moduleName": "PensaSdk"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "PensaSdk.PensaReportType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PensaReportType",
+                    "printedName": "PensaSdk.PensaReportType",
+                    "usr": "s:8PensaSdk0A10ReportTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8PensaSdk0A10ReportTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s8PensaSdk0A10ReportTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "PensaSdk",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PensaSdk0A10ReportTypeO8rawValueSSvp",
+            "mangledName": "$s8PensaSdk0A10ReportTypeO8rawValueSSvp",
+            "moduleName": "PensaSdk",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PensaSdk0A10ReportTypeO8rawValueSSvg",
+                "mangledName": "$s8PensaSdk0A10ReportTypeO8rawValueSSvg",
+                "moduleName": "PensaSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8PensaSdk0A10ReportTypeO",
+        "mangledName": "$s8PensaSdk0A10ReportTypeO",
+        "moduleName": "PensaSdk",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
           }
         ]
       },
@@ -4559,7 +4847,7 @@
           {
             "kind": "Function",
             "name": "fetchOnDemandReports",
-            "printedName": "fetchOnDemandReports(scanId:projectId:onSuccess:onError:)",
+            "printedName": "fetchOnDemandReports(scanId:projectId:reportType:onSuccess:onError:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4585,6 +4873,13 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PensaReportType",
+                "printedName": "PensaSdk.PensaReportType",
+                "hasDefaultArg": true,
+                "usr": "s:8PensaSdk0A10ReportTypeO"
               },
               {
                 "kind": "TypeFunc",
@@ -4624,8 +4919,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8PensaSdk0A0C20fetchOnDemandReports6scanId07projectH09onSuccess0J5ErrorySi_SiSgyAA0adE6ReportVcyAA0aL0VctF",
-            "mangledName": "$s8PensaSdk0A0C20fetchOnDemandReports6scanId07projectH09onSuccess0J5ErrorySi_SiSgyAA0adE6ReportVcyAA0aL0VctF",
+            "usr": "s:8PensaSdk0A0C20fetchOnDemandReports6scanId07projectH010reportType9onSuccess0L5ErrorySi_SiSgAA0a6ReportK0OyAA0adeO0VcyAA0aN0VctF",
+            "mangledName": "$s8PensaSdk0A0C20fetchOnDemandReports6scanId07projectH010reportType9onSuccess0L5ErrorySi_SiSgAA0a6ReportK0OyAA0adeO0VcyAA0aN0VctF",
             "moduleName": "PensaSdk",
             "isOpen": true,
             "declAttributes": [
@@ -7332,18 +7627,24 @@
           {
             "kind": "Function",
             "name": "toPensaOnDemandReport",
-            "printedName": "toPensaOnDemandReport()",
+            "printedName": "toPensaOnDemandReport(reportType:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "PensaOnDemandReport",
                 "printedName": "PensaSdk.PensaOnDemandReport",
                 "usr": "s:8PensaSdk0A14OnDemandReportV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PensaReportType",
+                "printedName": "PensaSdk.PensaReportType",
+                "usr": "s:8PensaSdk0A10ReportTypeO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:9PensaCore22OnDemandReportResponseV0A3SdkE02toacdE0AD0acdE0VyF",
-            "mangledName": "$s9PensaCore22OnDemandReportResponseV0A3SdkE02toacdE0AD0acdE0VyF",
+            "usr": "s:9PensaCore22OnDemandReportResponseV0A3SdkE02toacdE010reportTypeAD0acdE0VAD0aeJ0O_tF",
+            "mangledName": "$s9PensaCore22OnDemandReportResponseV0A3SdkE02toacdE010reportTypeAD0acdE0VAD0aeJ0O_tF",
             "moduleName": "PensaSdk",
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -7425,6 +7726,20 @@
       "value": "\"refreshIdToken timed out.\""
     },
     {
+      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
+      "kind": "StringLiteral",
+      "offset": 208,
+      "length": 14,
+      "value": "\"FACINGS_SEEN\""
+    },
+    {
+      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
+      "kind": "StringLiteral",
+      "offset": 244,
+      "length": 12,
+      "value": "\"ITEMS_SEEN\""
+    },
+    {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Pensa.swift",
       "kind": "BooleanLiteral",
       "offset": 310,
@@ -7504,91 +7819,91 @@
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2230,
-      "length": 26,
-      "value": "\"amplifyconfiguration_dev\""
+      "offset": 699,
+      "length": 27,
+      "value": "\"amplifyconfiguration_prod\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2355,
-      "length": 44,
-      "value": "\"https:\/\/sdk-api-dev.pensa.app\/mobilesdkapi\""
+      "offset": 825,
+      "length": 47,
+      "value": "\"https:\/\/sdk-api.pensasystems.net\/mobilesdkapi\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2426,
-      "length": 5,
-      "value": "\"dev\""
+      "offset": 899,
+      "length": 6,
+      "value": "\"prod\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2463,
-      "length": 5,
-      "value": "\"dev\""
+      "offset": 937,
+      "length": 6,
+      "value": "\"prod\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2507,
-      "length": 11,
-      "value": "\"dev-pensa\""
+      "offset": 982,
+      "length": 12,
+      "value": "\"prod-pensa\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2631,
+      "offset": 1104,
+      "length": 59,
+      "value": "\"https:\/\/mobileapi-prod.pensasystems.net\/mobileapi\/product\""
+    },
+    {
+      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1224,
+      "length": 40,
+      "value": "\"idp.pensasystems.net\/realms\/pensa-prod\""
+    },
+    {
+      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1287,
+      "length": 62,
+      "value": "\"https:\/\/authn-prod.pensasystems.net\/app\/#\/?service=mobileapi\""
+    },
+    {
+      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1380,
       "length": 51,
-      "value": "\"https:\/\/mobileapi-dev.pensa.app\/mobileapi\/product\""
+      "value": "\"https:\/\/authn-prod.pensasystems.net\/app\/#\/success\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2743,
-      "length": 36,
-      "value": "\"idp-dev.pensa.app\/realms\/pensa-dev\""
-    },
-    {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 2802,
-      "length": 54,
-      "value": "\"https:\/\/authn-dev.pensa.app\/app\/#\/?service=mobileapi\""
-    },
-    {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 2887,
-      "length": 43,
-      "value": "\"https:\/\/authn-dev.pensa.app\/app\/#\/success\""
-    },
-    {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 3003,
+      "offset": 1504,
       "length": 39,
       "value": "\"com.pensasystems.PensaApp.scan.upload\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3211,
+      "offset": 1712,
       "length": 40,
       "value": "\"com.pensasystems.PensaApp.check.upload\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3402,
+      "offset": 1903,
       "length": 42,
       "value": "\"com.pensasystems.PensaApp.product.upload\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3605,
+      "offset": 2106,
       "length": 43,
       "value": "\"com.pensasystems.PensaApp.activity.upload\""
     },
