@@ -21,21 +21,21 @@ public struct PensaError : Foundation.LocalizedError {
   }
 }
 public struct PensaOnDemandReport {
-  public let facingsSeen: PensaSdk.PensaOnDemandReportItem?
-  public let shelfId: Swift.Int?
-  public let shelfName: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init(facingsSeen: PensaSdk.PensaOnDemandReportItem?, shelfId: Swift.Int?, shelfName: Swift.String?)
-  #endif
-}
-public struct PensaOnDemandReportItem {
   public let projectId: Swift.Int?
   public let projectName: Swift.String?
   public let projectReportId: Swift.Int?
   public let projectReportName: Swift.String?
+  public let facingsSeen: PensaSdk.PensaOnDemandReportItem?
+  public let shelfId: Swift.Int?
+  public let shelfName: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(facingsSeen: PensaSdk.PensaOnDemandReportItem?, projectId: Swift.Int?, projectName: Swift.String?, projectReportId: Swift.Int?, projectReportName: Swift.String?, shelfId: Swift.Int?, shelfName: Swift.String?)
+  #endif
+}
+public struct PensaOnDemandReportItem {
   public let report: PensaSdk.PensaOnDemandReportBucket?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(projectId: Swift.Int?, projectName: Swift.String?, projectReportId: Swift.Int?, projectReportName: Swift.String?, report: PensaSdk.PensaOnDemandReportBucket?)
+  public init(report: PensaSdk.PensaOnDemandReportBucket?)
   #endif
 }
 public struct PensaOnDemandReportBucket {
