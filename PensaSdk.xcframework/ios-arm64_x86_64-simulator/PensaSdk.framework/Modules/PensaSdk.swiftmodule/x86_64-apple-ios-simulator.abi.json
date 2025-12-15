@@ -1019,6 +1019,66 @@
           },
           {
             "kind": "Var",
+            "name": "realogramSignedUrl",
+            "printedName": "realogramSignedUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PensaSdk0A14OnDemandReportV18realogramSignedUrlSSSgvp",
+            "mangledName": "$s8PensaSdk0A14OnDemandReportV18realogramSignedUrlSSSgvp",
+            "moduleName": "PensaSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PensaSdk0A14OnDemandReportV18realogramSignedUrlSSSgvg",
+                "mangledName": "$s8PensaSdk0A14OnDemandReportV18realogramSignedUrlSSSgvg",
+                "moduleName": "PensaSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "shelfId",
             "printedName": "shelfId",
             "children": [
@@ -1140,7 +1200,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(facingsSeen:itemsSeen:projectId:projectName:projectReportId:projectReportName:shelfId:shelfName:)",
+            "printedName": "init(facingsSeen:itemsSeen:projectId:projectName:projectReportId:projectReportName:realogramSignedUrl:shelfId:shelfName:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1235,6 +1295,20 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "Swift.Int?",
                 "children": [
                   {
@@ -1262,8 +1336,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8PensaSdk0A14OnDemandReportV11facingsSeen05itemsG09projectId0I4Name0ieJ00ieK005shelfJ00lK0AcA0acdE4ItemVSg_ANSiSgSSSgAopoPtcfc",
-            "mangledName": "$s8PensaSdk0A14OnDemandReportV11facingsSeen05itemsG09projectId0I4Name0ieJ00ieK005shelfJ00lK0AcA0acdE4ItemVSg_ANSiSgSSSgAopoPtcfc",
+            "usr": "s:8PensaSdk0A14OnDemandReportV11facingsSeen05itemsG09projectId0I4Name0ieJ00ieK018realogramSignedUrl05shelfJ00oK0AcA0acdE4ItemVSg_AOSiSgSSSgAp2qpQtcfc",
+            "mangledName": "$s8PensaSdk0A14OnDemandReportV11facingsSeen05itemsG09projectId0I4Name0ieJ00ieK018realogramSignedUrl05shelfJ00oK0AcA0acdE4ItemVSg_AOSiSgSSSgAp2qpQtcfc",
             "moduleName": "PensaSdk",
             "declAttributes": [
               "AccessControl"
