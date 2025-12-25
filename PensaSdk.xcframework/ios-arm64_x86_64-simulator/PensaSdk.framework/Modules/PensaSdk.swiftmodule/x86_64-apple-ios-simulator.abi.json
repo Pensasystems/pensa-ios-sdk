@@ -3977,6 +3977,225 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "sdkTokenHandler",
+            "printedName": "sdkTokenHandler",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((@escaping ((any Swift.Error)?) -> ()) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(@escaping ((any Swift.Error)?) -> ()) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "((any Swift.Error)?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "(any Swift.Error)?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "any Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PensaSdk19CoreListenersBridgeC15sdkTokenHandleryys5Error_pSgccSgvp",
+            "mangledName": "$s8PensaSdk19CoreListenersBridgeC15sdkTokenHandleryys5Error_pSgccSgvp",
+            "moduleName": "PensaSdk",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((@escaping ((any Swift.Error)?) -> ()) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(@escaping ((any Swift.Error)?) -> ()) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "((any Swift.Error)?) -> ()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "(any Swift.Error)?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Error",
+                                    "printedName": "any Swift.Error",
+                                    "usr": "s:s5ErrorP"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PensaSdk19CoreListenersBridgeC15sdkTokenHandleryys5Error_pSgccSgvg",
+                "mangledName": "$s8PensaSdk19CoreListenersBridgeC15sdkTokenHandleryys5Error_pSgccSgvg",
+                "moduleName": "PensaSdk",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((@escaping ((any Swift.Error)?) -> ()) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(@escaping ((any Swift.Error)?) -> ()) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "((any Swift.Error)?) -> ()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "(any Swift.Error)?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Error",
+                                    "printedName": "any Swift.Error",
+                                    "usr": "s:s5ErrorP"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PensaSdk19CoreListenersBridgeC15sdkTokenHandleryys5Error_pSgccSgvs",
+                "mangledName": "$s8PensaSdk19CoreListenersBridgeC15sdkTokenHandleryys5Error_pSgccSgvs",
+                "moduleName": "PensaSdk",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PensaSdk19CoreListenersBridgeC15sdkTokenHandleryys5Error_pSgccSgvM",
+                "mangledName": "$s8PensaSdk19CoreListenersBridgeC15sdkTokenHandleryys5Error_pSgccSgvM",
+                "moduleName": "PensaSdk",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "onCoreScanUploadProgress",
             "printedName": "onCoreScanUploadProgress(storeId:scanAreaId:progress:)",
@@ -4129,6 +4348,53 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "onCoreRefreshTokenRequired",
+            "printedName": "onCoreRefreshTokenRequired(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8PensaSdk19CoreListenersBridgeC02onC20RefreshTokenRequired10completionyys5Error_pSgc_tF",
+            "mangledName": "$s8PensaSdk19CoreListenersBridgeC02onC20RefreshTokenRequired10completionyys5Error_pSgc_tF",
+            "moduleName": "PensaSdk",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -4185,6 +4451,13 @@
             "printedName": "CoreCantScanListener",
             "usr": "s:9PensaCore0B16CantScanListenerP",
             "mangledName": "$s9PensaCore0B16CantScanListenerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CoreRefreshTokenListener",
+            "printedName": "CoreRefreshTokenListener",
+            "usr": "s:9PensaCore0B20RefreshTokenListenerP",
+            "mangledName": "$s9PensaCore0B20RefreshTokenListenerP"
           }
         ]
       },
@@ -7893,91 +8166,91 @@
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 699,
+      "offset": 695,
       "length": 27,
       "value": "\"amplifyconfiguration_prod\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 825,
+      "offset": 821,
       "length": 47,
       "value": "\"https:\/\/sdk-api.pensasystems.net\/mobilesdkapi\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 899,
+      "offset": 895,
       "length": 6,
       "value": "\"prod\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 937,
+      "offset": 933,
       "length": 6,
       "value": "\"prod\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 982,
+      "offset": 978,
       "length": 12,
       "value": "\"prod-pensa\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1104,
+      "offset": 1100,
       "length": 59,
       "value": "\"https:\/\/mobileapi-prod.pensasystems.net\/mobileapi\/product\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1224,
+      "offset": 1220,
       "length": 40,
       "value": "\"idp.pensasystems.net\/realms\/pensa-prod\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1287,
+      "offset": 1283,
       "length": 62,
       "value": "\"https:\/\/authn-prod.pensasystems.net\/app\/#\/?service=mobileapi\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1380,
+      "offset": 1376,
       "length": 51,
       "value": "\"https:\/\/authn-prod.pensasystems.net\/app\/#\/success\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1504,
+      "offset": 1500,
       "length": 39,
       "value": "\"com.pensasystems.PensaApp.scan.upload\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1712,
+      "offset": 1708,
       "length": 40,
       "value": "\"com.pensasystems.PensaApp.check.upload\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1903,
+      "offset": 1899,
       "length": 42,
       "value": "\"com.pensasystems.PensaApp.product.upload\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2106,
+      "offset": 2102,
       "length": 43,
       "value": "\"com.pensasystems.PensaApp.activity.upload\""
     },
