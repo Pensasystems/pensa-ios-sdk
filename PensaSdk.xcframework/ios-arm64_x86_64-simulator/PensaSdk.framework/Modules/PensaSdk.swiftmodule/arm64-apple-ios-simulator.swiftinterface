@@ -30,8 +30,9 @@ public struct PensaOnDemandReport {
   public let realogramSignedUrl: Swift.String?
   public let shelfId: Swift.Int?
   public let shelfName: Swift.String?
+  public let status: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(facingsSeen: PensaSdk.PensaOnDemandReportItem?, itemsSeen: PensaSdk.PensaOnDemandReportItem?, projectId: Swift.Int?, projectName: Swift.String?, projectReportId: Swift.Int?, projectReportName: Swift.String?, realogramSignedUrl: Swift.String?, shelfId: Swift.Int?, shelfName: Swift.String?)
+  public init(facingsSeen: PensaSdk.PensaOnDemandReportItem?, itemsSeen: PensaSdk.PensaOnDemandReportItem?, projectId: Swift.Int?, projectName: Swift.String?, projectReportId: Swift.Int?, projectReportName: Swift.String?, realogramSignedUrl: Swift.String?, shelfId: Swift.Int?, shelfName: Swift.String?, status: Swift.String?)
   #endif
 }
 public struct PensaOnDemandReportItem {
