@@ -1198,9 +1198,69 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PensaSdk0A14OnDemandReportV6statusSSSgvp",
+            "mangledName": "$s8PensaSdk0A14OnDemandReportV6statusSSSgvp",
+            "moduleName": "PensaSdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PensaSdk0A14OnDemandReportV6statusSSSgvg",
+                "mangledName": "$s8PensaSdk0A14OnDemandReportV6statusSSSgvg",
+                "moduleName": "PensaSdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(facingsSeen:itemsSeen:projectId:projectName:projectReportId:projectReportName:realogramSignedUrl:shelfId:shelfName:)",
+            "printedName": "init(facingsSeen:itemsSeen:projectId:projectName:projectReportId:projectReportName:realogramSignedUrl:shelfId:shelfName:status:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1333,11 +1393,25 @@
                   }
                 ],
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8PensaSdk0A14OnDemandReportV11facingsSeen05itemsG09projectId0I4Name0ieJ00ieK018realogramSignedUrl05shelfJ00oK0AcA0acdE4ItemVSg_AOSiSgSSSgAp2qpQtcfc",
-            "mangledName": "$s8PensaSdk0A14OnDemandReportV11facingsSeen05itemsG09projectId0I4Name0ieJ00ieK018realogramSignedUrl05shelfJ00oK0AcA0acdE4ItemVSg_AOSiSgSSSgAp2qpQtcfc",
+            "usr": "s:8PensaSdk0A14OnDemandReportV11facingsSeen05itemsG09projectId0I4Name0ieJ00ieK018realogramSignedUrl05shelfJ00oK06statusAcA0acdE4ItemVSg_APSiSgSSSgAq2rq2Rtcfc",
+            "mangledName": "$s8PensaSdk0A14OnDemandReportV11facingsSeen05itemsG09projectId0I4Name0ieJ00ieK018realogramSignedUrl05shelfJ00oK06statusAcA0acdE4ItemVSg_APSiSgSSSgAq2rq2Rtcfc",
             "moduleName": "PensaSdk",
             "declAttributes": [
               "AccessControl"
