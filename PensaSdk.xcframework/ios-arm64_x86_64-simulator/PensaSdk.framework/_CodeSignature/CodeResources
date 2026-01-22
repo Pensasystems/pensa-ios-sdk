@@ -6,15 +6,15 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		rPFRu4uD8fvMkTC2INsYRJGwGdw=
+		Zb2841VEJDv73BWOG16mpBI/FFc=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		CF3JaaR2IkstLOBhCUZOCDWZcPU=
+		77m0HdFxSfo5Lm0b6o8v8QjSJ2g=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		X3TYcKTAnNsVms0h5JyQs+2vUCQ=
+		8v5eIJEl7qqTopXg3xZZ1/PYx1w=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		X3TYcKTAnNsVms0h5JyQs+2vUCQ=
+		8v5eIJEl7qqTopXg3xZZ1/PYx1w=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TN/nMqGpeiqoQBpiG+5ok3zdS3I=
+		sQPNrN7Qq38PrP6MdFehhzv8u78=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		CF3JaaR2IkstLOBhCUZOCDWZcPU=
+		77m0HdFxSfo5Lm0b6o8v8QjSJ2g=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+7G8NTAF2uDnkf9fsNlAC58dnXQ=
+		HARbxSriSYSw4/YhzGTlNJnjMpE=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,15 +42,15 @@
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+7G8NTAF2uDnkf9fsNlAC58dnXQ=
+		HARbxSriSYSw4/YhzGTlNJnjMpE=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		F93+U6LMkJEns36Offphk439/+E=
+		zzlhEX1GMs3PJLcIyURWmLu2H2A=
 		</data>
 		<key>PensaCoreResources.bundle/Assets.car</key>
 		<data>
-		aYY1QXkVOeOXk+WoB9R23UEVVGI=
+		xdlxW41xFG6kMD7I9nY6+Yv8j2M=
 		</data>
 		<key>PensaCoreResources.bundle/Base.lproj/CantScan.storyboardc/CantScanController.nib</key>
 		<dict>
@@ -157,7 +157,7 @@
 		</data>
 		<key>PensaCoreResources.bundle/Info.plist</key>
 		<data>
-		CE+kfxU1w+YJiEl5K4fRy08J31k=
+		Dz0pInOMmu6k4MiJQjQlXRaudf0=
 		</data>
 		<key>PensaCoreResources.bundle/PensaLoadingDialog.nib</key>
 		<data>
@@ -165,7 +165,7 @@
 		</data>
 		<key>PensaCoreResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		bcRq8Cb+IWSVvJIh1TRZnBC9+rM=
+		q64irnNHQKsSlp4TczXhz4loCwk=
 		</data>
 		<key>PensaCoreResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -173,7 +173,7 @@
 		</data>
 		<key>PensaCoreResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
-		RH24LUKok2Ff57OutFmM4ZyzJ8I=
+		T2RPqwx30m4SiM4WJddmotx01yY=
 		</data>
 		<key>PensaCoreResources.bundle/_CodeSignature/CodeSignature</key>
 		<data>
@@ -249,14 +249,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5Uyiw4Kj+Vn/BN5tQjozX9urPwVISoqacP9syrTGNbc=
+			riJhsqfyGt/bbVDYv9iWFN85hQbF1UOLPIC6bfmIrV8=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yEBFogqbcAX5PUvlrxZoLDSfaUSaisJxSsXFWdethiM=
+			WjemQM2g5JlBRowXXripIUMKC5fTVD55WBIG+A5urIk=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -270,28 +270,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yEBFogqbcAX5PUvlrxZoLDSfaUSaisJxSsXFWdethiM=
+			WjemQM2g5JlBRowXXripIUMKC5fTVD55WBIG+A5urIk=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mk2318RsYeQxDoZL0+bDmK8wkfLFJ9dOUhLgPDwXXxI=
+			yyufhn4kje2lVVjaiYqbaER5wvwRB3VRthmGPrD0HLk=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5Uyiw4Kj+Vn/BN5tQjozX9urPwVISoqacP9syrTGNbc=
+			riJhsqfyGt/bbVDYv9iWFN85hQbF1UOLPIC6bfmIrV8=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XcdM7TrKfmAoEiQR46teKl8GOzYn7xUy188su74K7D4=
+			ou8WIBilRx5353x7r2pVrm2b443ZaWDHp5x28/hmtZ8=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -305,21 +305,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XcdM7TrKfmAoEiQR46teKl8GOzYn7xUy188su74K7D4=
+			ou8WIBilRx5353x7r2pVrm2b443ZaWDHp5x28/hmtZ8=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+mjqMf+kCI1KNPIVeCfE+BPateLmLla2byLYcaEYSL8=
+			O49Jp2mETsCL+smYTyIp1kWbjbv3sPUg99VYPty1MOw=
 			</data>
 		</dict>
 		<key>PensaCoreResources.bundle/Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jKsf/VsFSPIG628x5z8AMnVWzNrqOc716FEJ4p8eEhY=
+			/01ot11oIJJ5y5SmxY8sFiWfNI5iGPYFXbDhYmZ2Ax4=
 			</data>
 		</dict>
 		<key>PensaCoreResources.bundle/Base.lproj/CantScan.storyboardc/CantScanController.nib</key>
@@ -432,7 +432,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FbQGApgJRaudRG5AUcwMVvPBShwxFdThXFLw07PUQMY=
+			5GksX9vcltkCNAiF60i389Z1YSY0l7HrDoiU841RIJQ=
 			</data>
 		</dict>
 		<key>PensaCoreResources.bundle/PensaLoadingDialog.nib</key>
@@ -446,7 +446,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SH99Ov7a6eJ0P3ilmpa7eUdg0gssTRlFLTddyfM5N+A=
+			pVjA/8KXhzxyF31kLiJsnzUUc67sArl2uUfXnz6rzu0=
 			</data>
 		</dict>
 		<key>PensaCoreResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -460,7 +460,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4+9sVuXb4Lqlt1EZ4IqtSINaI7tCzF1S4cw5xPIplL0=
+			gSRp2iunrlzun+7DAkOCmDcMdBcgUvrfL72fICyIf44=
 			</data>
 		</dict>
 		<key>PensaCoreResources.bundle/_CodeSignature/CodeSignature</key>
