@@ -10,11 +10,11 @@
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		77m0HdFxSfo5Lm0b6o8v8QjSJ2g=
+		6mO0MicvtnHjjmrkve8lOQTguCo=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		ycFg+c5oQZjWph4/Qh7XhryXpQU=
+		eaW7h+LvOfx4jjIj0aUJ2PPBhFY=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -22,15 +22,15 @@
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		ycFg+c5oQZjWph4/Qh7XhryXpQU=
+		eaW7h+LvOfx4jjIj0aUJ2PPBhFY=
 		</data>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		6uDqKM8ffM/jvw4WYTgNimY08jE=
+		G8CHCiKkUaA0SdjZAgFxCQT2nvw=
 		</data>
 		<key>PensaCoreResources.bundle/Assets.car</key>
 		<data>
-		aYY1QXkVOeOXk+WoB9R23UEVVGI=
+		KxsalGiqiDvhfkvJhrHbVdIdZ7Q=
 		</data>
 		<key>PensaCoreResources.bundle/Base.lproj/CantScan.storyboardc/CantScanController.nib</key>
 		<dict>
@@ -63,7 +63,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yMbgXRv84mwdsq6Softz4ImFjFk=
+			ADorfGwKnq11tvDtaIVlgK4TztI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -147,25 +147,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Dm6HiNyHqyA2bD9MwZbPuZ6z2a4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>PensaCoreResources.bundle/fr-CA.lproj/CantScan.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			g3b8+AqRjNii18XOxX3FPVZHOOk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>PensaCoreResources.bundle/fr-CA.lproj/IBCPortraitCamera.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/s9zaEHC3eXuhV8LgChA3p9TGLI=
+			RpCxU4VsjwgemeoKCeLf8C3wSWE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -174,25 +156,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Cj5gxT0cIXXsf88QthY+xvgVuz8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>PensaCoreResources.bundle/tr.lproj/CantScan.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hosJsMY821T3n8kjdNbWVncj4FU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>PensaCoreResources.bundle/tr.lproj/IBCPortraitCamera.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			k2hkzd+O/cb+FDS2e7BfykQrNmg=
+			ZtpF/Lh2kbe/CGiV332oFskgSv0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -201,7 +165,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wJ9EoWyzYxGSce/to/8wv5e/R7Y=
+			wlqqs/amgL1PU79CbtSk+fF+OsM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -213,14 +177,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			riJhsqfyGt/bbVDYv9iWFN85hQbF1UOLPIC6bfmIrV8=
+			PWlKRIraKy+Rg4+1vlh2+FvZ/cCWTHs/acnrVSjiBdY=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3PlOxzwWipMqccWxnr96qqppZs45OIG6f4rWMyDSdGo=
+			X0zLRgRr0G1YASjgz9oN5CF6Oz3XEMab/GMO/7yyfBY=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -234,21 +198,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3PlOxzwWipMqccWxnr96qqppZs45OIG6f4rWMyDSdGo=
+			X0zLRgRr0G1YASjgz9oN5CF6Oz3XEMab/GMO/7yyfBY=
 			</data>
 		</dict>
 		<key>Modules/PensaSdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ldk1M+aSv51g70NyS6N7PBxsp9elvDPF1bU0gaYAKe0=
+			vv088woby9G27OHXB6l9jEQC8v25AeA3n9y1eh99++4=
 			</data>
 		</dict>
 		<key>PensaCoreResources.bundle/Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jKsf/VsFSPIG628x5z8AMnVWzNrqOc716FEJ4p8eEhY=
+			6hG2xqYKpfponHS4B1uEdlT54+yRFhkRbO4778ZLlDc=
 			</data>
 		</dict>
 		<key>PensaCoreResources.bundle/Base.lproj/CantScan.storyboardc/CantScanController.nib</key>
@@ -282,7 +246,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TiRCBtaKBCitE5AO/7N1T2DY6xdv5ocSuFHJYrVB8t0=
+			GPB7WlrY2tO3vSu5uTf8CFPRRgsO9rKYhqyYyONMEVs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -375,25 +339,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Of59buVHXyhkd5aPp2lOr3ujNC71KsI95rQEWPa1ljI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>PensaCoreResources.bundle/fr-CA.lproj/CantScan.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+S22VEX1SUAa2Rc2LvmBf1Q5n7WtI0xiWnETKkN31g4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>PensaCoreResources.bundle/fr-CA.lproj/IBCPortraitCamera.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			D5gDblrh682T8a+9xj65hQXteMZ4vMCIdwcpb3LnOLU=
+			Fko8B6cRyCxkkrLzVqZt6+fjdiPT+y4jGBE3slyia3Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -402,25 +348,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aKRQbuGqi9rJ8UpjTidXX4bD+LfvoAhxCNJB/lbwYus=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>PensaCoreResources.bundle/tr.lproj/CantScan.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7lTX/pU+D1+Csl7RAhbLvRiWe3xqhy3cJ52eG8o5HNA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>PensaCoreResources.bundle/tr.lproj/IBCPortraitCamera.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RQZSH2ejWtgpGaFG5hHawU0aAbmWim36x5bkYUT20bw=
+			fYfNgEGzkVi64RV+r7UcKMCxFPABN6rQ3nZpI0mxqik=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -429,7 +357,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hptxpQO9Lf5UVkXXr2LyqmWXhQpENq5i8irReDhE+RY=
+			94Um3Hwj8KG6ns+v0s5v/Za1mM7g2a+Ph87bi9qU7T4=
 			</data>
 			<key>optional</key>
 			<true/>

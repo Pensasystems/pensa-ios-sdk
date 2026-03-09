@@ -111,6 +111,15 @@ public struct PensaScanMetadata {
   public init(guid: Swift.String?, serverUploadStarted: Swift.String?)
   #endif
 }
+public struct PensaShelfItem : Swift.Codable {
+  public let id: Swift.Int
+  public let name: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(id: Swift.Int, name: Swift.String?)
+  #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public protocol CantScanEventListener {
   func onCantScanReported(tdlinxId: Swift.String, scanAreaId: Swift.String, cantScanReason: Swift.String)
 }
@@ -141,6 +150,7 @@ public protocol ScanUploadListener {
   #endif
   public func fetchScanStatuses(scanIds: [Swift.Int], onSuccess: @escaping ([PensaSdk.PensaScanStatus]) -> Swift.Void, onError: @escaping (PensaSdk.PensaError) -> Swift.Void)
   public func fetchProductImageBase64(productId: Swift.Int, onSuccess: @escaping (Swift.String) -> Swift.Void, onError: @escaping (PensaSdk.PensaError) -> Swift.Void)
+  public func fetchShelves(globalStoreId: Swift.String, onSuccess: @escaping ([PensaSdk.PensaShelfItem]) -> Swift.Void, onError: @escaping (PensaSdk.PensaError) -> Swift.Void)
   @objc deinit
 }
 public struct PensaConfiguration {
