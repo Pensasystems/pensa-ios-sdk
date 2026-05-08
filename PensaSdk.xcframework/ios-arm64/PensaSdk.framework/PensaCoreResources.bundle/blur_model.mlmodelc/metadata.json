@@ -1,0 +1,81 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "storagePrecision" : "Float16",
+    "outputSchema" : [
+      {
+        "isOptional" : "0",
+        "formattedType" : "String",
+        "type" : "String",
+        "name" : "predicted_class",
+        "shortDescription" : ""
+      },
+      {
+        "isOptional" : "0",
+        "keyType" : "String",
+        "formattedType" : "Dictionary (String → Double)",
+        "type" : "Dictionary",
+        "name" : "predicted_class_probs",
+        "shortDescription" : ""
+      }
+    ],
+    "modelParameters" : [
+
+    ],
+    "specificationVersion" : 6,
+    "mlProgramOperationTypeHistogram" : {
+      "Linear" : 2,
+      "Cast" : 2,
+      "Conv" : 52,
+      "ThresholdedRelu" : 19,
+      "Relu" : 14,
+      "Mul" : 29,
+      "SigmoidHard" : 28,
+      "Add" : 7,
+      "Softmax" : 1,
+      "ReduceMean" : 10,
+      "Reshape" : 1
+    },
+    "computePrecision" : "Mixed (Float16, Float32, Float64, Int32)",
+    "isUpdatable" : "0",
+    "stateSchema" : [
+
+    ],
+    "availability" : {
+      "macOS" : "12.0",
+      "tvOS" : "15.0",
+      "visionOS" : "1.0",
+      "watchOS" : "8.0",
+      "iOS" : "15.0",
+      "macCatalyst" : "15.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_mlProgram"
+    },
+    "inputSchema" : [
+      {
+        "height" : "1080",
+        "colorspace" : "RGB",
+        "isOptional" : "0",
+        "width" : "1440",
+        "isColor" : "1",
+        "formattedType" : "Image (Color 1440 × 1080)",
+        "hasSizeFlexibility" : "0",
+        "type" : "Image",
+        "shortDescription" : "",
+        "name" : "input"
+      }
+    ],
+    "classLabels" : [
+      "crisp",
+      "blurry"
+    ],
+    "generatedClassName" : "blur_model",
+    "userDefinedMetadata" : {
+      "com.github.apple.coremltools.version" : "8.3.0",
+      "com.github.apple.coremltools.source_dialect" : "TorchScript",
+      "com.github.apple.coremltools.source" : "torch==2.3.1"
+    },
+    "method" : "predict"
+  }
+]
