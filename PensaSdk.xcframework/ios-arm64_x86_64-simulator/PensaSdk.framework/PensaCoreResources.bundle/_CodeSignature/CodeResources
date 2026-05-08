@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		EyzpcTPyZjUlZ4gs+4jMc2sTJCA=
+		YujoxXj4du8FC2xzTlGf/it7J/Y=
 		</data>
 		<key>Base.lproj/CantScan.storyboardc/CantScanController.nib</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Base.lproj/IBCPortraitCamera.storyboardc/0wH-4d-tys-view-18R-1K-Xau.nib</key>
 		<data>
-		c2NUgMxewPQRRqwCEKfgt+O7t7g=
+		K/EUslDzkjMK6u8rxxcQuky3dXM=
 		</data>
 		<key>Base.lproj/IBCPortraitCamera.storyboardc/GVL-GV-1kF-view-9dq-M9-sfn.nib</key>
 		<data>
-		XmmjeJgsEcm/E3pjA+9siUtgK6s=
+		PZb2UQ3DugfbhpQlRhoQkp8F1k4=
 		</data>
 		<key>Base.lproj/IBCPortraitCamera.storyboardc/HowToScan.nib</key>
 		<data>
@@ -52,19 +52,44 @@
 		<data>
 		DHneGFI2IsMkbHxcELPjBo7H/Ig=
 		</data>
-		<key>Info-PensaCoreResources.plist</key>
-		<data>
-		iww/gdthA5taZeHmMXVWEt1bfew=
-		</data>
 		<key>PensaLoadingDialog.nib</key>
 		<data>
 		iahIEbz/nqq0EQeoiqww7TGT7LY=
+		</data>
+		<key>blur_model.mlmodelc/analytics/coremldata.bin</key>
+		<data>
+		/JLB5Hshl16LXLnxHgK+Oi4FgCE=
+		</data>
+		<key>blur_model.mlmodelc/coremldata.bin</key>
+		<data>
+		i1JXZoFz5nqwwf5YRYUs0HMppdM=
+		</data>
+		<key>blur_model.mlmodelc/metadata.json</key>
+		<data>
+		4boo5bs7mtRWR8ZHqhkeycceUpQ=
+		</data>
+		<key>blur_model.mlmodelc/model.mil</key>
+		<data>
+		AQQ9Oi8ptMaCJ1jWKWlfKfrvwkk=
+		</data>
+		<key>blur_model.mlmodelc/weights/weight.bin</key>
+		<data>
+		dKX5aY89UpaVnjbnrWtVAEqcRE4=
 		</data>
 		<key>en.lproj/Strings.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RpCxU4VsjwgemeoKCeLf8C3wSWE=
+			tQnYJaWQEoyEdoxwHmjSJLpfiN4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fr-CA.lproj/IBCPortraitCamera.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/s9zaEHC3eXuhV8LgChA3p9TGLI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -73,7 +98,16 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZtpF/Lh2kbe/CGiV332oFskgSv0=
+			CVSYOGDdqpIf5SmXaA7IZkoNOjk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>tr.lproj/IBCPortraitCamera.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			k2hkzd+O/cb+FDS2e7BfykQrNmg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -82,7 +116,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wlqqs/amgL1PU79CbtSk+fF+OsM=
+			/wLsSNv48gVqVJ6i+9PQEhDVaIQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -94,7 +128,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+2rLoLyB6pGpFppo5u+T4QdQQxKEU2lN0bu53qOq2Jc=
+			6ayXoDOaeGbxb8r8HGWFW+1rlAg46FaXuCzJJM2kCCo=
 			</data>
 		</dict>
 		<key>Base.lproj/CantScan.storyboardc/CantScanController.nib</key>
@@ -129,14 +163,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AOmXZeVP5/B1CdW1YwUejiM6uQKg9fcRnbcLhCccMRs=
+			VeKMm0abAiushkBKZqlLyvImwtNVuXbXW2qtV9P/YFs=
 			</data>
 		</dict>
 		<key>Base.lproj/IBCPortraitCamera.storyboardc/GVL-GV-1kF-view-9dq-M9-sfn.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a309woVvl6//+3hGr3ELWR5/OM4BNEhdR4a9lJxixgo=
+			+KPwI1vH8QDCxDK2UO5j540nksNZcHfHpWXzbB6GD6U=
 			</data>
 		</dict>
 		<key>Base.lproj/IBCPortraitCamera.storyboardc/HowToScan.nib</key>
@@ -174,13 +208,6 @@
 			RvZZGKTRhO8Ujqbz+Yfhar5xeXICQ+8w5JogdAyHOg4=
 			</data>
 		</dict>
-		<key>Info-PensaCoreResources.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Y9ecYq/QTsIkMyjzl9E8Vtx2+Rmtqk2HnuVfeSGHdRU=
-			</data>
-		</dict>
 		<key>PensaLoadingDialog.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -188,11 +215,55 @@
 			VNqBtJ7cRg9F/5AO1VfECAVMRQxwjJTjCBFLmz5pAzU=
 			</data>
 		</dict>
+		<key>blur_model.mlmodelc/analytics/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ONSIT/vol0CS8Kf+0bzdVicTUHHW1bbrjOsl/MhILFI=
+			</data>
+		</dict>
+		<key>blur_model.mlmodelc/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			prflHsKp6pr4CoG+WkAF/R2PkCp8apNU8e+3+EnWaxQ=
+			</data>
+		</dict>
+		<key>blur_model.mlmodelc/metadata.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mjiGv9TnufLsRWVrGddJVi8PfKcEWRxGZw9x5X0qkCQ=
+			</data>
+		</dict>
+		<key>blur_model.mlmodelc/model.mil</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nP3hk2Jm7FrUX5VFe+KZFaKpTMTRKRBSVMzuQdZqODQ=
+			</data>
+		</dict>
+		<key>blur_model.mlmodelc/weights/weight.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cMSoiD/nZBbWcL4BKBokS9V1ct/guHq0bYr38Ey6gL4=
+			</data>
+		</dict>
 		<key>en.lproj/Strings.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fko8B6cRyCxkkrLzVqZt6+fjdiPT+y4jGBE3slyia3Y=
+			63dp+W54Ne6oWEdc6AGOK5I7cafP2wTdlMIcDHj0eaU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fr-CA.lproj/IBCPortraitCamera.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			D5gDblrh682T8a+9xj65hQXteMZ4vMCIdwcpb3LnOLU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -201,7 +272,16 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fYfNgEGzkVi64RV+r7UcKMCxFPABN6rQ3nZpI0mxqik=
+			ffem1fnuoFdyMa/yot2zwbrt2bZgjJjUr+r9mPMVCe4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>tr.lproj/IBCPortraitCamera.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RQZSH2ejWtgpGaFG5hHawU0aAbmWim36x5bkYUT20bw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -210,7 +290,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			94Um3Hwj8KG6ns+v0s5v/Za1mM7g2a+Ph87bi9qU7T4=
+			jDeAz/qlMVuu3dce5v0vPc4sZf9IcCLzSkzh5HoE7Ws=
 			</data>
 			<key>optional</key>
 			<true/>

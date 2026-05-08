@@ -20,7 +20,7 @@ public struct PensaError : Foundation.LocalizedError {
     get
   }
 }
-public struct PensaOnDemandReport {
+public struct PensaOnDemandReport : Swift.Codable {
   public let projectId: Swift.Int?
   public let projectName: Swift.String?
   public let projectReportId: Swift.Int?
@@ -31,6 +31,7 @@ public struct PensaOnDemandReport {
   public let itemsSeen: PensaSdk.PensaOnDemandReportItem?
   public let newProducts: PensaSdk.PensaOnDemandReportItem?
   public let newProductPackaging: PensaSdk.PensaOnDemandReportItem?
+  public let missingPriceTag: PensaSdk.PensaOnDemandReportItem?
   public let noOos: PensaSdk.PensaOnDemandReportItem?
   public let oos: PensaSdk.PensaOnDemandReportItem?
   public let productPositions: PensaSdk.PensaOnDemandReportItem?
@@ -41,21 +42,29 @@ public struct PensaOnDemandReport {
   public let shelfId: Swift.Int?
   public let shelfName: Swift.String?
   public let status: Swift.String?
+  public let scans: [PensaSdk.PensaOnDemandScan]?
+  public let visit: PensaSdk.PensaOnDemandVisit?
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(facingsSeen: PensaSdk.PensaOnDemandReportItem?, fullFacings: PensaSdk.PensaOnDemandReportItem?, fullFacingsAndProductPositions: PensaSdk.PensaOnDemandReportItem?, itemsSeen: PensaSdk.PensaOnDemandReportItem?, newProducts: PensaSdk.PensaOnDemandReportItem?, newProductPackaging: PensaSdk.PensaOnDemandReportItem?, noOos: PensaSdk.PensaOnDemandReportItem?, oos: PensaSdk.PensaOnDemandReportItem?, productPositions: PensaSdk.PensaOnDemandReportItem?, scanFailed: PensaSdk.PensaOnDemandReportItem?, scanRejected: PensaSdk.PensaOnDemandReportItem?, scanSkipped: PensaSdk.PensaOnDemandReportItem?, projectId: Swift.Int?, projectName: Swift.String?, projectReportId: Swift.Int?, projectReportName: Swift.String?, realogramSignedUrl: Swift.String?, shelfId: Swift.Int?, shelfName: Swift.String?, status: Swift.String?)
+  public init(facingsSeen: PensaSdk.PensaOnDemandReportItem?, fullFacings: PensaSdk.PensaOnDemandReportItem?, fullFacingsAndProductPositions: PensaSdk.PensaOnDemandReportItem?, itemsSeen: PensaSdk.PensaOnDemandReportItem?, newProducts: PensaSdk.PensaOnDemandReportItem?, newProductPackaging: PensaSdk.PensaOnDemandReportItem?, missingPriceTag: PensaSdk.PensaOnDemandReportItem?, noOos: PensaSdk.PensaOnDemandReportItem?, oos: PensaSdk.PensaOnDemandReportItem?, productPositions: PensaSdk.PensaOnDemandReportItem?, scanFailed: PensaSdk.PensaOnDemandReportItem?, scanRejected: PensaSdk.PensaOnDemandReportItem?, scanSkipped: PensaSdk.PensaOnDemandReportItem?, projectId: Swift.Int?, projectName: Swift.String?, projectReportId: Swift.Int?, projectReportName: Swift.String?, realogramSignedUrl: Swift.String?, shelfId: Swift.Int?, shelfName: Swift.String?, status: Swift.String?, scans: [PensaSdk.PensaOnDemandScan]?, visit: PensaSdk.PensaOnDemandVisit?)
   #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
-public struct PensaOnDemandReportItem {
+public struct PensaOnDemandReportItem : Swift.Codable {
   public let report: PensaSdk.PensaOnDemandReportBucket?
   #if compiler(>=5.3) && $NonescapableTypes
   public init(report: PensaSdk.PensaOnDemandReportBucket?)
   #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
-public struct PensaOnDemandReportBucket {
+public struct PensaOnDemandReportBucket : Swift.Codable {
   public let productList: [PensaSdk.PensaOnDemandProduct]
   public init(productList: [PensaSdk.PensaOnDemandProduct])
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
-public struct PensaOnDemandProduct {
+public struct PensaOnDemandProduct : Swift.Codable {
   public let brand: Swift.String?
   public let brandId: Swift.Int?
   public let category: Swift.String?
@@ -70,6 +79,43 @@ public struct PensaOnDemandProduct {
   #if compiler(>=5.3) && $NonescapableTypes
   public init(brand: Swift.String?, brandId: Swift.Int?, category: Swift.String?, categoryId: Swift.Int?, expectedFacings: Swift.Int?, facings: Swift.Int?, manufacturer: Swift.String?, manufacturerId: Swift.Int?, product: Swift.String?, productId: Swift.Int?, upc: Swift.String?)
   #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct PensaOnDemandScan : Swift.Codable {
+  public let facingsSeen: PensaSdk.PensaOnDemandReportItem?
+  public let fullFacings: PensaSdk.PensaOnDemandReportItem?
+  public let fullFacingsAndProductPositions: PensaSdk.PensaOnDemandReportItem?
+  public let itemsSeen: PensaSdk.PensaOnDemandReportItem?
+  public let newProducts: PensaSdk.PensaOnDemandReportItem?
+  public let newProductPackaging: PensaSdk.PensaOnDemandReportItem?
+  public let missingPriceTag: PensaSdk.PensaOnDemandReportItem?
+  public let noOos: PensaSdk.PensaOnDemandReportItem?
+  public let oos: PensaSdk.PensaOnDemandReportItem?
+  public let productPositions: PensaSdk.PensaOnDemandReportItem?
+  public let scanFailed: PensaSdk.PensaOnDemandReportItem?
+  public let scanRejected: PensaSdk.PensaOnDemandReportItem?
+  public let scanSkipped: PensaSdk.PensaOnDemandReportItem?
+  public let projectId: Swift.Int?
+  public let projectName: Swift.String?
+  public let projectReportId: Swift.Int?
+  public let projectReportName: Swift.String?
+  public let realogramSignedUrl: Swift.String?
+  public let scanId: Swift.Int?
+  public let shelfId: Swift.Int?
+  public let shelfName: Swift.String?
+  public let status: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct PensaOnDemandVisit : Swift.Codable {
+  public let endTime: Swift.String?
+  public let identifier: Swift.String?
+  public let startTime: Swift.String?
+  public let storeName: Swift.String?
+  public let storeTdlinx: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public enum PensaReportType : Swift.String {
   case facingsSeen
@@ -78,6 +124,7 @@ public enum PensaReportType : Swift.String {
   case itemsSeen
   case newProducts
   case newProductPackaging
+  case missingPriceTag
   case noOos
   case oos
   case productPositions
@@ -92,7 +139,7 @@ public enum PensaReportType : Swift.String {
     get
   }
 }
-public struct PensaScanStatus {
+public struct PensaScanStatus : Swift.Codable {
   public let created: Swift.String?
   public let fastStatus: Swift.String?
   public let id: Swift.Int
@@ -103,13 +150,17 @@ public struct PensaScanStatus {
   #if compiler(>=5.3) && $NonescapableTypes
   public init(id: Swift.Int, created: Swift.String?, fastStatus: Swift.String?, metadata: PensaSdk.PensaScanMetadata?, scanTimestamp: Swift.String?, scannerId: Swift.Int?, status: Swift.String?)
   #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
-public struct PensaScanMetadata {
+public struct PensaScanMetadata : Swift.Codable {
   public let guid: Swift.String?
   public let serverUploadStarted: Swift.String?
   #if compiler(>=5.3) && $NonescapableTypes
   public init(guid: Swift.String?, serverUploadStarted: Swift.String?)
   #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct PensaShelfItem : Swift.Codable {
   public let id: Swift.Int
@@ -120,8 +171,35 @@ public struct PensaShelfItem : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct PensaVisitScansStatus : Swift.Codable {
+  public let guid: Swift.String?
+  public let scans: [PensaSdk.PensaVisitScanItem]?
+  public let visitStatus: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(guid: Swift.String?, scans: [PensaSdk.PensaVisitScanItem]?, visitStatus: Swift.String?)
+  #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct PensaVisitScanItem : Swift.Codable {
+  public let created: Swift.String?
+  public let fastStatus: Swift.String?
+  public let scanId: Swift.Int?
+  public let status: Swift.String?
+  public let uploadCompleted: Swift.Bool?
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(created: Swift.String?, fastStatus: Swift.String?, scanId: Swift.Int?, status: Swift.String?, uploadCompleted: Swift.Bool?)
+  #endif
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public protocol CantScanEventListener {
   func onCantScanReported(tdlinxId: Swift.String, scanAreaId: Swift.String, cantScanReason: Swift.String)
+}
+public protocol CompletedScanWithGuidListener {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func onScanCompletedWithGuid(guid: Swift.String?, tdlinxId: Swift.String, scanId: Swift.Int)
+  #endif
 }
 public protocol ScanUploadListener {
   func onScanUploadProgressUpdate(tdlinxId: Swift.String, scanAreaId: Swift.String, progress: Swift.Double)
@@ -145,10 +223,12 @@ public protocol ScanUploadListener {
   #if compiler(>=5.3) && $NonescapableTypes
   public func showStoreChecklist(sectionKey: Swift.String?, guid: Swift.String?, globalStoreId: Swift.String, onError: @escaping (PensaSdk.PensaError) -> Swift.Void = { _ in })
   #endif
+  public func showStoreChecklistWithGuid(globalStoreId: Swift.String, guid: Swift.String, onError: @escaping (PensaSdk.PensaError) -> Swift.Void = { _ in })
   #if compiler(>=5.3) && $NonescapableTypes
-  public func fetchOnDemandReports(scanId: Swift.Int, projectId: Swift.Int?, reportTypes: [PensaSdk.PensaReportType] = [.itemsSeen], onSuccess: @escaping (PensaSdk.PensaOnDemandReport) -> Swift.Void, onError: @escaping (PensaSdk.PensaError) -> Swift.Void)
+  public func fetchOnDemandReports(scanId: Swift.Int? = nil, guid: Swift.String? = nil, projectId: Swift.Int? = nil, reportTypes: [PensaSdk.PensaReportType] = [.itemsSeen], onSuccess: @escaping (PensaSdk.PensaOnDemandReport) -> Swift.Void, onError: @escaping (PensaSdk.PensaError) -> Swift.Void)
   #endif
   public func fetchScanStatuses(scanIds: [Swift.Int], onSuccess: @escaping ([PensaSdk.PensaScanStatus]) -> Swift.Void, onError: @escaping (PensaSdk.PensaError) -> Swift.Void)
+  public func fetchVisitScansStatus(guid: Swift.String, onSuccess: @escaping (PensaSdk.PensaVisitScansStatus) -> Swift.Void, onError: @escaping (PensaSdk.PensaError) -> Swift.Void)
   public func fetchProductImageBase64(productId: Swift.Int, onSuccess: @escaping (Swift.String) -> Swift.Void, onError: @escaping (PensaSdk.PensaError) -> Swift.Void)
   public func fetchShelves(globalStoreId: Swift.String, onSuccess: @escaping ([PensaSdk.PensaShelfItem]) -> Swift.Void, onError: @escaping (PensaSdk.PensaError) -> Swift.Void)
   @objc deinit
@@ -159,6 +239,7 @@ public struct PensaConfiguration {
   public let loggingEnabled: Swift.Bool
   public let scanUploadListener: (any PensaSdk.ScanUploadListener)?
   public let cantScanEventListener: (any PensaSdk.CantScanEventListener)?
+  public let completedScanWithGuidListener: (any PensaSdk.CompletedScanWithGuidListener)?
   public class Builder {
     public init()
     public func setClientId(_ clientId: Swift.String) -> PensaSdk.PensaConfiguration.Builder
@@ -166,6 +247,7 @@ public struct PensaConfiguration {
     public func setLoggingEnabled(_ enabled: Swift.Bool) -> PensaSdk.PensaConfiguration.Builder
     public func setScanUploadListener(_ listener: any PensaSdk.ScanUploadListener) -> PensaSdk.PensaConfiguration.Builder
     public func setCantScanEventListener(_ listener: any PensaSdk.CantScanEventListener) -> PensaSdk.PensaConfiguration.Builder
+    public func setCompletedScanWithGuidListener(_ listener: any PensaSdk.CompletedScanWithGuidListener) -> PensaSdk.PensaConfiguration.Builder
     public func build() -> PensaSdk.PensaConfiguration
     @objc deinit
   }
