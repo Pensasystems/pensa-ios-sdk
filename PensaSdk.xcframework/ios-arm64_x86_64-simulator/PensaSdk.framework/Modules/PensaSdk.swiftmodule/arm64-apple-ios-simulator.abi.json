@@ -14091,91 +14091,91 @@
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2156,
-      "length": 26,
-      "value": "\"amplifyconfiguration_dev\""
+      "offset": 631,
+      "length": 27,
+      "value": "\"amplifyconfiguration_prod\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2281,
-      "length": 44,
-      "value": "\"https:\/\/sdk-api-dev.pensa.app\/mobilesdkapi\""
+      "offset": 757,
+      "length": 47,
+      "value": "\"https:\/\/sdk-api.pensasystems.net\/mobilesdkapi\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2352,
-      "length": 5,
-      "value": "\"dev\""
+      "offset": 831,
+      "length": 6,
+      "value": "\"prod\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2389,
-      "length": 5,
-      "value": "\"dev\""
+      "offset": 869,
+      "length": 6,
+      "value": "\"prod\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2433,
-      "length": 11,
-      "value": "\"dev-pensa\""
+      "offset": 914,
+      "length": 12,
+      "value": "\"prod-pensa\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2557,
+      "offset": 1036,
+      "length": 59,
+      "value": "\"https:\/\/mobileapi-prod.pensasystems.net\/mobileapi\/product\""
+    },
+    {
+      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1156,
+      "length": 40,
+      "value": "\"idp.pensasystems.net\/realms\/pensa-prod\""
+    },
+    {
+      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1219,
+      "length": 62,
+      "value": "\"https:\/\/authn-prod.pensasystems.net\/app\/#\/?service=mobileapi\""
+    },
+    {
+      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1312,
       "length": 51,
-      "value": "\"https:\/\/mobileapi-dev.pensa.app\/mobileapi\/product\""
+      "value": "\"https:\/\/authn-prod.pensasystems.net\/app\/#\/success\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2669,
-      "length": 36,
-      "value": "\"idp-dev.pensa.app\/realms\/pensa-dev\""
-    },
-    {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 2728,
-      "length": 54,
-      "value": "\"https:\/\/authn-dev.pensa.app\/app\/#\/?service=mobileapi\""
-    },
-    {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 2813,
-      "length": 43,
-      "value": "\"https:\/\/authn-dev.pensa.app\/app\/#\/success\""
-    },
-    {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 2929,
+      "offset": 1436,
       "length": 39,
       "value": "\"com.pensasystems.PensaApp.scan.upload\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3137,
+      "offset": 1644,
       "length": 40,
       "value": "\"com.pensasystems.PensaApp.check.upload\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3328,
+      "offset": 1835,
       "length": 42,
       "value": "\"com.pensasystems.PensaApp.product.upload\""
     },
     {
       "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3531,
+      "offset": 2038,
       "length": 43,
       "value": "\"com.pensasystems.PensaApp.activity.upload\""
     },

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'PensaSdk'
-  spec.version      = '1.1.4-alpha1'
+  spec.version      = '1.1.4'
   spec.summary      = 'iOS SDK by Pensa Systems.'
   spec.description  = <<-DESC
     The Pensa Mobile App SDK is a developer toolkit designed to simplify adding Pensa’s capabilities to your mobile applications.
