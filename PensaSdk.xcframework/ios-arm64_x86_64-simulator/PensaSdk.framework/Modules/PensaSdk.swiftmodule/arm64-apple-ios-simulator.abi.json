@@ -125,17 +125,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
             "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -610,20 +610,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "LocalizedError",
             "printedName": "LocalizedError",
             "usr": "s:10Foundation14LocalizedErrorP",
@@ -631,10 +617,24 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Error",
             "printedName": "Error",
             "usr": "s:s5ErrorP",
             "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -2474,13 +2474,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -2492,6 +2485,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -2664,13 +2664,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -2682,6 +2675,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -2854,13 +2854,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -2872,6 +2865,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -3784,13 +3784,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -3802,6 +3795,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -5526,13 +5526,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -5544,6 +5537,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -6010,13 +6010,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -6028,6 +6021,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -6609,17 +6609,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -7251,13 +7251,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -7269,6 +7262,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -7515,13 +7515,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -7533,6 +7526,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -7776,13 +7776,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -7794,6 +7787,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -8148,13 +8148,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -8166,6 +8159,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -8634,13 +8634,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -8652,6 +8645,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -8844,17 +8844,17 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -8879,6 +8879,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Sendable",
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
@@ -8890,13 +8897,6 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BitwiseCopyable",
-            "printedName": "BitwiseCopyable",
-            "usr": "s:s15BitwiseCopyableP",
-            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -9930,20 +9930,6 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "CoreScanUploadListener",
             "printedName": "CoreScanUploadListener",
             "usr": "s:9PensaCore0B18ScanUploadListenerP",
@@ -9969,6 +9955,20 @@
             "printedName": "CoreRefreshTokenListener",
             "usr": "s:9PensaCore0B20RefreshTokenListenerP",
             "mangledName": "$s9PensaCore0B20RefreshTokenListenerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -12436,6 +12436,101 @@
           },
           {
             "kind": "Var",
+            "name": "OAUTH_REDIRECT_URI",
+            "printedName": "OAUTH_REDIRECT_URI",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8PensaSdk0A6ConfigV18OAUTH_REDIRECT_URISSvp",
+            "mangledName": "$s8PensaSdk0A6ConfigV18OAUTH_REDIRECT_URISSvp",
+            "moduleName": "PensaSdk",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 9,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PensaSdk0A6ConfigV18OAUTH_REDIRECT_URISSvg",
+                "mangledName": "$s8PensaSdk0A6ConfigV18OAUTH_REDIRECT_URISSvg",
+                "moduleName": "PensaSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PensaSdk0A6ConfigV18OAUTH_REDIRECT_URISSvs",
+                "mangledName": "$s8PensaSdk0A6ConfigV18OAUTH_REDIRECT_URISSvs",
+                "moduleName": "PensaSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8PensaSdk0A6ConfigV18OAUTH_REDIRECT_URISSvM",
+                "mangledName": "$s8PensaSdk0A6ConfigV18OAUTH_REDIRECT_URISSvM",
+                "moduleName": "PensaSdk",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "UPLOAD_SCAN_BG_TASK_ID",
             "printedName": "UPLOAD_SCAN_BG_TASK_ID",
             "children": [
@@ -12455,7 +12550,7 @@
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 9,
+            "fixedbinaryorder": 10,
             "hasStorage": true,
             "accessors": [
               {
@@ -12551,7 +12646,7 @@
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 10,
+            "fixedbinaryorder": 11,
             "hasStorage": true,
             "accessors": [
               {
@@ -12647,7 +12742,7 @@
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 11,
+            "fixedbinaryorder": 12,
             "hasStorage": true,
             "accessors": [
               {
@@ -12743,7 +12838,7 @@
               "HasStorage",
               "RawDocComment"
             ],
-            "fixedbinaryorder": 12,
+            "fixedbinaryorder": 13,
             "hasStorage": true,
             "accessors": [
               {
@@ -12821,7 +12916,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(APP_NAME:AWS_CONFIG_FILE:BASE_URL:ENV:REAL_ENV:S3_VIDEO_BUCKET:PROVIDER_KEY:URL_SSO:URL_SSO_SUCCESS:UPLOAD_SCAN_BG_TASK_ID:UPLOAD_CHECK_BG_TASK_ID:UPLOAD_PRODUCT_BG_TASK_ID:UPLOAD_ACTIVITY_BG_TASK_ID:)",
+            "printedName": "init(APP_NAME:AWS_CONFIG_FILE:BASE_URL:ENV:REAL_ENV:S3_VIDEO_BUCKET:PROVIDER_KEY:URL_SSO:URL_SSO_SUCCESS:OAUTH_REDIRECT_URI:UPLOAD_SCAN_BG_TASK_ID:UPLOAD_CHECK_BG_TASK_ID:UPLOAD_PRODUCT_BG_TASK_ID:UPLOAD_ACTIVITY_BG_TASK_ID:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -12919,11 +13014,18 @@
                 "printedName": "Swift.String",
                 "hasDefaultArg": true,
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:8PensaSdk0A6ConfigV8APP_NAME15AWS_CONFIG_FILE8BASE_URL3ENV05REAL_K015S3_VIDEO_BUCKET12PROVIDER_KEY0J4_SSO0j1_R8_SUCCESS22UPLOAD_SCAN_BG_TASK_ID0t7_CHECK_v1_w1_X00t9_PRODUCT_v1_w1_X00t10_ACTIVITY_v1_w1_X0ACSS_S12Stcfc",
-            "mangledName": "$s8PensaSdk0A6ConfigV8APP_NAME15AWS_CONFIG_FILE8BASE_URL3ENV05REAL_K015S3_VIDEO_BUCKET12PROVIDER_KEY0J4_SSO0j1_R8_SUCCESS22UPLOAD_SCAN_BG_TASK_ID0t7_CHECK_v1_w1_X00t9_PRODUCT_v1_w1_X00t10_ACTIVITY_v1_w1_X0ACSS_S12Stcfc",
+            "usr": "s:8PensaSdk0A6ConfigV8APP_NAME15AWS_CONFIG_FILE8BASE_URL3ENV05REAL_K015S3_VIDEO_BUCKET12PROVIDER_KEY0J4_SSO0j1_R8_SUCCESS18OAUTH_REDIRECT_URI22UPLOAD_SCAN_BG_TASK_ID0w7_CHECK_y1_Z3_ID0w9_PRODUCT_y1_Z3_ID0w10_ACTIVITY_y1_Z3_IDACSS_S13Stcfc",
+            "mangledName": "$s8PensaSdk0A6ConfigV8APP_NAME15AWS_CONFIG_FILE8BASE_URL3ENV05REAL_K015S3_VIDEO_BUCKET12PROVIDER_KEY0J4_SSO0j1_R8_SUCCESS18OAUTH_REDIRECT_URI22UPLOAD_SCAN_BG_TASK_ID0w7_CHECK_y1_Z3_ID0w9_PRODUCT_y1_Z3_ID0w10_ACTIVITY_y1_Z3_IDACSS_S13Stcfc",
             "moduleName": "PensaSdk",
             "implicit": true,
             "init_kind": "Designated"
@@ -12955,6 +13057,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "ConfigProvider",
+            "printedName": "ConfigProvider",
+            "usr": "s:9PensaCore14ConfigProviderP",
+            "mangledName": "$s9PensaCore14ConfigProviderP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
@@ -12966,13 +13075,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ConfigProvider",
-            "printedName": "ConfigProvider",
-            "usr": "s:9PensaCore14ConfigProviderP",
-            "mangledName": "$s9PensaCore14ConfigProviderP"
           },
           {
             "kind": "Conformance",
@@ -13609,17 +13711,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
           },
           {
             "kind": "Conformance",
@@ -13663,17 +13765,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
           },
           {
             "kind": "Conformance",
@@ -13717,6 +13819,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Decodable",
             "printedName": "Decodable",
             "usr": "s:Se",
@@ -13728,13 +13837,6 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
           },
           {
             "kind": "Conformance",
@@ -13792,17 +13894,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
           },
           {
             "kind": "Conformance",
@@ -13860,17 +13962,17 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
             "name": "Copyable",
             "printedName": "Copyable",
             "usr": "s:s8CopyableP",
             "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
           },
           {
             "kind": "Conformance",
@@ -13886,301 +13988,308 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaError.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaError.swift",
       "kind": "StringLiteral",
       "offset": 470,
       "length": 29,
       "value": "\"Unauthorized user detected.\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaError.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaError.swift",
       "kind": "StringLiteral",
       "offset": 537,
       "length": 36,
       "value": "\"Internal server error has occured.\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaError.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaError.swift",
       "kind": "StringLiteral",
       "offset": 602,
       "length": 38,
       "value": "\"No active internet connection found.\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaError.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaError.swift",
       "kind": "StringLiteral",
       "offset": 673,
       "length": 27,
       "value": "\"Pensa is not initialized.\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaError.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaError.swift",
       "kind": "StringLiteral",
       "offset": 738,
       "length": 53,
       "value": "\"User does not have necessary Pensa App permissions.\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaError.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaError.swift",
       "kind": "StringLiteral",
       "offset": 826,
       "length": 27,
       "value": "\"refreshIdToken timed out.\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 14,
       "value": "\"FACINGS_SEEN\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
       "kind": "StringLiteral",
       "offset": 246,
       "length": 14,
       "value": "\"FULL_FACINGS\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
       "kind": "StringLiteral",
       "offset": 303,
       "length": 36,
       "value": "\"FULL_FACINGS_AND_PRODUCT_POSITIONS\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
       "kind": "StringLiteral",
       "offset": 361,
       "length": 12,
       "value": "\"ITEMS_SEEN\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
       "kind": "StringLiteral",
       "offset": 397,
       "length": 14,
       "value": "\"NEW_PRODUCTS\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
       "kind": "StringLiteral",
       "offset": 443,
       "length": 23,
       "value": "\"NEW_PRODUCT_PACKAGING\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
       "kind": "StringLiteral",
       "offset": 494,
       "length": 19,
       "value": "\"MISSING_PRICE_TAG\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
       "kind": "StringLiteral",
       "offset": 531,
       "length": 8,
       "value": "\"NO_OOS\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
       "kind": "StringLiteral",
       "offset": 555,
       "length": 5,
       "value": "\"OOS\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
       "kind": "StringLiteral",
       "offset": 589,
       "length": 19,
       "value": "\"PRODUCT_POSITIONS\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
       "kind": "StringLiteral",
       "offset": 631,
       "length": 13,
       "value": "\"SCAN_FAILED\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
       "kind": "StringLiteral",
       "offset": 669,
       "length": 15,
       "value": "\"SCAN_REJECTED\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Platform\/PensaReportType.swift",
       "kind": "StringLiteral",
       "offset": 708,
       "length": 14,
       "value": "\"SCAN_SKIPPED\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Pensa.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Pensa.swift",
       "kind": "BooleanLiteral",
       "offset": 310,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Pensa.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Pensa.swift",
       "kind": "BooleanLiteral",
       "offset": 342,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Pensa.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Pensa.swift",
       "kind": "StringLiteral",
       "offset": 481,
       "length": 27,
       "value": "\"com.pensasystems.PensaSdk\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Pensa.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Pensa.swift",
       "kind": "StringLiteral",
       "offset": 529,
       "length": 12,
       "value": "\"PensaModel\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Pensa.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/Pensa.swift",
       "kind": "BooleanLiteral",
       "offset": 572,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
       "offset": 242,
       "length": 11,
       "value": "\"MOBILESDK\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
       "offset": 362,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
       "offset": 423,
       "length": 35,
       "value": "\"mobile-cant-scan@pensasystems.com\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 502,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
       "offset": 538,
       "length": 26,
       "value": "\"support@pensasystems.com\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
       "offset": 631,
       "length": 27,
       "value": "\"amplifyconfiguration_prod\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
       "offset": 757,
       "length": 47,
       "value": "\"https:\/\/sdk-api.pensasystems.net\/mobilesdkapi\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
       "offset": 831,
       "length": 6,
       "value": "\"prod\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
       "offset": 869,
       "length": 6,
       "value": "\"prod\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
       "offset": 914,
       "length": 12,
       "value": "\"prod-pensa\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
       "offset": 1036,
       "length": 59,
       "value": "\"https:\/\/mobileapi-prod.pensasystems.net\/mobileapi\/product\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
       "offset": 1156,
       "length": 40,
       "value": "\"idp.pensasystems.net\/realms\/pensa-prod\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
       "offset": 1219,
       "length": 62,
       "value": "\"https:\/\/authn-prod.pensasystems.net\/app\/#\/?service=mobileapi\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
       "offset": 1312,
       "length": 51,
       "value": "\"https:\/\/authn-prod.pensasystems.net\/app\/#\/success\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1436,
+      "offset": 1397,
+      "length": 24,
+      "value": "\"pensa:\/\/oauth\/callback\""
+    },
+    {
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1494,
       "length": 39,
       "value": "\"com.pensasystems.PensaApp.scan.upload\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1644,
+      "offset": 1702,
       "length": 40,
       "value": "\"com.pensasystems.PensaApp.check.upload\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1835,
+      "offset": 1893,
       "length": 42,
       "value": "\"com.pensasystems.PensaApp.product.upload\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2038,
+      "offset": 2096,
       "length": 43,
       "value": "\"com.pensasystems.PensaApp.activity.upload\""
     },
     {
-      "filePath": "\/Users\/ozgurbaykal\/projectPensa\/pensa-cognition-mobile\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfiguration.swift",
+      "filePath": "\/Users\/distiller\/project\/ios_app\/PensaMobileAppV1\/PensaSdk\/PensaSdk\/PensaConfiguration.swift",
       "kind": "BooleanLiteral",
       "offset": 1234,
       "length": 5,

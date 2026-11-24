@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="format-detection" content="telephone=no">
+<title>SSO Help — Pensa</title>
+<style>
+  :root{
+    --brand:#2F58A6;
+    --brand-dark:#24457F;
+    --brand-tint:#EEF3FC;
+    --bg:#F4F6FA;
+    --card:#FFFFFF;
+    --ink:#151A24;
+    --ink-2:#4A5468;
+    --ink-3:#7B8598;
+    --line:#E3E8F0;
+    --radius:16px;
+    --shadow:0 1px 2px rgba(16,24,40,.05), 0 6px 18px rgba(16,24,40,.05);
+    --tap:rgba(47,88,166,.10);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --brand:#7DA3E8;
+      --brand-dark:#5C86D4;
+      --brand-tint:#1B2436;
+      --bg:#0E121A;
+      --card:#161C27;
+      --ink:#EDF1F7;
+      --ink-2:#AEB8C9;
+      --ink-3:#7D889B;
+      --line:#242C3A;
+      --shadow:0 1px 2px rgba(0,0,0,.4);
+      --tap:rgba(125,163,232,.14);
+    }
+  }
+
+  *,*::before,*::after{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font:400 16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    overflow-wrap:anywhere;
+  }
+  a{color:var(--brand);text-decoration:none}
+  button{font:inherit;color:inherit;-webkit-tap-highlight-color:transparent}
+
+  /* ---------- Header ---------- */
+  .hero{
+    background:linear-gradient(160deg,#2F58A6 0%,#24457F 100%);
+    color:#fff;
+    padding:calc(env(safe-area-inset-top) + 28px) 20px 30px;
+    text-align:center;
+  }
+  .logo{
+    width:64px;height:64px;border-radius:16px;display:block;margin:0 auto 14px;
+    box-shadow:0 6px 18px rgba(0,0,0,.22);
+  }
+  .hero h1{margin:0;font-size:23px;line-height:1.25;font-weight:700;letter-spacing:-.2px}
+  .hero p{margin:8px auto 0;max-width:38ch;font-size:14.5px;color:rgba(255,255,255,.82)}
+
+  /* ---------- Layout ---------- */
+  .wrap{
+    max-width:720px;margin:0 auto;
+    padding:18px 16px calc(env(safe-area-inset-bottom) + 40px);
+  }
+  .section{margin-top:22px}
+  .section:first-child{margin-top:4px}
+  .section-head{
+    display:flex;align-items:center;gap:10px;
+    margin:0 4px 10px;
+  }
+  .section-head .emoji{font-size:19px;line-height:1}
+  .section-head h2{margin:0;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3)}
+
+  .card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+    overflow:hidden;
+  }
+
+  /* ---------- Accordion item ---------- */
+  details{border-bottom:1px solid var(--line)}
+  details:last-child{border-bottom:0}
+  summary{
+    display:flex;align-items:flex-start;gap:12px;
+    padding:15px 16px;
+    font-size:15.5px;font-weight:600;line-height:1.4;
+    cursor:pointer;list-style:none;
+    min-height:52px;
+    transition:background .15s ease;
+  }
+  summary::-webkit-details-marker{display:none}
+  summary:active{background:var(--tap)}
+  summary .q{flex:1}
+  .chev{
+    flex:none;width:20px;height:20px;margin-top:1px;
+    color:var(--ink-3);transition:transform .22s ease;
+  }
+  details[open] > summary{color:var(--brand)}
+  details[open] > summary .chev{transform:rotate(180deg);color:var(--brand)}
+
+  .answer{padding:0 16px 16px;color:var(--ink-2);font-size:15px}
+  .answer > :first-child{margin-top:0}
+  .answer > :last-child{margin-bottom:0}
+  .answer p{margin:0 0 10px}
+  .answer strong{color:var(--ink);font-weight:600}
+
+  ol.steps,ul.bullets{margin:0;padding:0;list-style:none}
+  ol.steps{counter-reset:step}
+  ol.steps li{
+    counter-increment:step;position:relative;
+    padding:0 0 0 32px;margin-bottom:11px;
+  }
+  ol.steps li:last-child{margin-bottom:0}
+  ol.steps li::before{
+    content:counter(step);
+    position:absolute;left:0;top:1px;
+    width:22px;height:22px;border-radius:50%;
+    background:var(--brand-tint);color:var(--brand-dark);
+    font-size:12px;font-weight:700;
+    display:flex;align-items:center;justify-content:center;
+  }
+  @media (prefers-color-scheme: dark){ ol.steps li::before{color:var(--brand)} }
+
+  ul.bullets li{position:relative;padding-left:18px;margin-bottom:8px}
+  ul.bullets li:last-child{margin-bottom:0}
+  ul.bullets li::before{
+    content:"";position:absolute;left:2px;top:9px;
+    width:6px;height:6px;border-radius:50%;background:var(--brand);
+  }
+
+  .pill{
+    display:inline-block;margin:2px 6px 2px 0;padding:4px 10px;
+    background:var(--brand-tint);color:var(--brand-dark);
+    border-radius:999px;font-size:13px;font-weight:600;
+  }
+  @media (prefers-color-scheme: dark){ .pill{color:var(--brand)} }
+
+  .note{
+    display:flex;gap:10px;padding:12px 13px;margin-top:12px;
+    background:var(--brand-tint);border-radius:12px;
+    font-size:14px;color:var(--ink-2);
+  }
+  .note .emoji{flex:none}
+
+  /* ---------- Support ---------- */
+  .support{
+    margin-top:24px;padding:20px 18px;text-align:center;
+    background:var(--card);border:1px solid var(--line);
+    border-radius:var(--radius);box-shadow:var(--shadow);
+  }
+  .support h3{margin:0 0 6px;font-size:17px;font-weight:700}
+  .support p{margin:0 auto;max-width:44ch;font-size:14.5px;color:var(--ink-2)}
+  .btn{
+    display:block;width:100%;margin-top:16px;padding:14px 18px;
+    background:var(--brand);color:#fff;border:0;border-radius:12px;
+    font-size:16px;font-weight:600;cursor:pointer;
+    transition:opacity .15s ease;
+  }
+  @media (prefers-color-scheme: dark){ .btn{color:#0E121A} }
+  .btn:active{opacity:.85}
+  .checklist{
+    margin:16px 0 0;text-align:left;
+    font-size:14px;color:var(--ink-2);
+  }
+  .checklist li{margin-bottom:7px}
+  .checklist li:last-child{margin-bottom:0}
+
+  footer{margin-top:26px;text-align:center;font-size:12.5px;color:var(--ink-3)}
+
+  @media (prefers-reduced-motion: reduce){
+    *{transition:none !important}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <!-- Pensa mark, inlined as SVG so the page stays fully self-contained -->
+  <svg class="logo" viewBox="0 0 512 512" role="img" aria-label="Pensa">
+    <rect width="512" height="512" rx="112" fill="#2F58A6"/>
+    <circle cx="185" cy="182" r="30" fill="#fff"/>
+    <circle cx="304" cy="182" r="30" fill="#fff"/>
+    <circle cx="418" cy="182" r="30" fill="#fff"/>
+    <text x="50%" y="300" text-anchor="middle" fill="#fff"
+          font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif"
+          font-size="168" font-weight="700" letter-spacing="-4"
+          dominant-baseline="middle">Pensa</text>
+  </svg>
+  <h1>Single Sign-On (SSO) FAQs</h1>
+  <p>Common questions about implementation, security and troubleshooting.</p>
+</header>
+
+<main class="wrap">
+
+  <!-- ============ Troubleshooting & Usage ============ -->
+  <section class="section">
+    <div class="section-head">
+      <span class="emoji" aria-hidden="true">🛠️</span>
+      <h2>Troubleshooting &amp; Usage</h2>
+    </div>
+    <div class="card">
+
+      <details>
+        <summary>
+          <span class="q">Why do I have to enter my full email address?</span>
+          <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </summary>
+        <div class="answer">
+          <p>The app uses your email domain to know which organization to redirect you to.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <span class="q">What if a user can't log in?</span>
+          <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </summary>
+        <div class="answer">
+          <ol class="steps">
+            <li><strong>Test the IdP.</strong> Have the user try logging into your company portal directly.</li>
+            <li><strong>Check configuration.</strong> If they can log into your portal but not Pensa, contact us.</li>
+            <li><strong>Support.</strong> Reach out to your internal IT team first, or submit a support ticket in the app.</li>
+          </ol>
+        </div>
+      </details>
+
+    </div>
+  </section>
+
+  <!-- ============ Setup & Prerequisites ============ -->
+  <section class="section">
+    <div class="section-head">
+      <span class="emoji" aria-hidden="true">⚙️</span>
+      <h2>Setup &amp; Prerequisites</h2>
+    </div>
+    <div class="card">
+
+      <details>
+        <summary>
+          <span class="q">What are the requirements to get started?</span>
+          <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </summary>
+        <div class="answer">
+          <ol class="steps">
+            <li>A Pensa-configured onboarding structure.</li>
+            <li>An exchange of SAML Metadata (SP and IdP).</li>
+            <li>Designated user groups and account assignments within Pensa.</li>
+          </ol>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <span class="q">Is there any downtime during implementation?</span>
+          <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </summary>
+        <div class="answer">
+          <p><strong>No.</strong> SSO can be configured and tested without any interruption to your current service.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <span class="q">Can I restrict access to certain groups or IPs?</span>
+          <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </summary>
+        <div class="answer">
+          <p><strong>Yes.</strong> Since authentication happens on your side, you can apply your own conditional access policies — such as IP ranges or specific user groups — within your IdP.</p>
+        </div>
+      </details>
+
+    </div>
+  </section>
+
+  <!-- ============ Security & Authentication ============ -->
+  <section class="section">
+    <div class="section-head">
+      <span class="emoji" aria-hidden="true">🛡️</span>
+      <h2>Security &amp; Authentication</h2>
+    </div>
+    <div class="card">
+
+      <details>
+        <summary>
+          <span class="q">Which protocols do you support?</span>
+          <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </summary>
+        <div class="answer">
+          <p>We support <strong>SAML 2.0</strong> for all SSO integrations.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <span class="q">Which Identity Providers (IdPs) are compatible?</span>
+          <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </summary>
+        <div class="answer">
+          <p>Any IdP that supports the SAML 2.0 standard, for example:</p>
+          <div>
+            <span class="pill">Okta</span>
+            <span class="pill">Azure AD / Entra ID</span>
+            <span class="pill">Ping</span>
+            <span class="pill">…and others</span>
+          </div>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <span class="q">Does this support Multi-Factor Authentication (MFA)?</span>
+          <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </summary>
+        <div class="answer">
+          <p><strong>Yes.</strong> We delegate authentication to your IdP. If you have MFA enabled there, it automatically applies to Pensa.</p>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <span class="q">How is my data protected?</span>
+          <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </summary>
+        <div class="answer">
+          <p>We only sync essential user data:</p>
+          <ul class="bullets">
+            <li>Name</li>
+            <li>Surname</li>
+            <li>Email</li>
+            <li>Username</li>
+          </ul>
+        </div>
+      </details>
+
+      <details>
+        <summary>
+          <span class="q">How long do sessions last?</span>
+          <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </summary>
+        <div class="answer">
+          <p>Once logged in via SSO, sessions remain active for <strong>30 days</strong>.</p>
+        </div>
+      </details>
+
+    </div>
+  </section>
+
+  <!-- ============ Support ============ -->
+  <section class="support">
+    <div style="font-size:26px;line-height:1" aria-hidden="true">🆘</div>
+    <h3>Need SSO support?</h3>
+    <p>If you're experiencing a <strong>“Redirect Loop”</strong> or attribute mapping errors, submit a support ticket and our integration team will follow up.</p>
+    <ul class="checklist bullets">
+      <li>A short description of the error</li>
+      <li>A screenshot, if possible</li>
+      <li>The email address you're signing in with</li>
+    </ul>
+    <button class="btn" type="button" id="supportBtn">Submit a support ticket</button>
+  </section>
+
+  <footer>Pensa · SSO Help</footer>
+</main>
+
+<script>
+  // Accordion: keep only one item open per card.
+  document.querySelectorAll('.card').forEach(function (card) {
+    var items = card.querySelectorAll('details');
+    items.forEach(function (d) {
+      d.addEventListener('toggle', function () {
+        if (!d.open) return;
+        items.forEach(function (other) { if (other !== d) other.open = false; });
+      });
+    });
+  });
+
+  // Support button.
+  // The host app can override this by defining window.PensaHelp.onSupportTicket
+  // before/after load (e.g. to open a native ticket screen from the webview).
+  document.getElementById('supportBtn').addEventListener('click', function () {
+    var handler = window.PensaHelp && window.PensaHelp.onSupportTicket;
+    if (typeof handler === 'function') { handler(); return; }
+    // Native bridge fallbacks
+    if (window.ReactNativeWebView && window.ReactNativeWebView.postMessage) {
+      window.ReactNativeWebView.postMessage(JSON.stringify({ type: 'support_ticket', topic: 'sso' }));
+      return;
+    }
+    if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.pensa) {
+      window.webkit.messageHandlers.pensa.postMessage({ type: 'support_ticket', topic: 'sso' });
+      return;
+    }
+    if (window.AndroidBridge && window.AndroidBridge.openSupportTicket) {
+      window.AndroidBridge.openSupportTicket('sso');
+      return;
+    }
+    // Last resort: email
+    window.location.href = 'mailto:support@pensasystems.com'
+      + '?subject=' + encodeURIComponent('SSO support request')
+      + '&body=' + encodeURIComponent('Describe the error you are seeing (and attach a screenshot if possible):\n\n');
+  });
+</script>
+
+</body>
+</html>
